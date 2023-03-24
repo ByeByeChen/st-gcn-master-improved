@@ -1,0 +1,27 @@
+{
+  "___dTOdxzXY": {
+    "has_skeleton": true,
+    "label": "jumping into pool",
+    "label_index": 0
+  },
+  "___qijXy2f0": {
+    "has_skeleton": true,
+    "label": "playing harp",
+    "label_index": 1
+  },
+  "__0muxHV-Uw": {
+    "has_skeleton": true,
+    "label": "folding napkins",
+    "label_index": 2
+  },
+  "__4frZhaVDs": {
+    "has_skeleton": true,
+    "label": "braiding hair",
+    "label_index": 3
+  },
+  "__6LvmReo3Y": {
+    "has_skeleton": true,
+    "label": "pushing cart",
+    "label_index": 4
+  }
+}

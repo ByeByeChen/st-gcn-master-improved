@@ -1,0 +1,2785 @@
+[03.24.23|09:56:11] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|09:56:11] Training epoch: 0
+[03.24.23|09:56:31] 	mean_loss: nan
+[03.24.23|09:56:31] Time consumption:
+[03.24.23|09:56:31] Done.
+[03.24.23|09:56:31] Training epoch: 1
+[03.24.23|09:56:51] 	mean_loss: nan
+[03.24.23|09:56:51] Time consumption:
+[03.24.23|09:56:51] Done.
+[03.24.23|09:56:51] Training epoch: 2
+[03.24.23|09:57:10] 	mean_loss: nan
+[03.24.23|09:57:10] Time consumption:
+[03.24.23|09:57:10] Done.
+[03.24.23|09:57:10] Training epoch: 3
+[03.24.23|09:57:31] 	mean_loss: nan
+[03.24.23|09:57:31] Time consumption:
+[03.24.23|09:57:31] Done.
+[03.24.23|09:57:31] Training epoch: 4
+[03.24.23|09:57:51] 	mean_loss: nan
+[03.24.23|09:57:51] Time consumption:
+[03.24.23|09:57:51] Done.
+[03.24.23|09:57:51] Eval epoch: 4
+[03.24.23|09:58:13] 	mean_loss: 5.9914655685424805
+[03.24.23|09:58:13] 	Top1: 0.00%
+[03.24.23|09:58:13] 	Top5: 0.00%
+[03.24.23|09:58:13] Done.
+[03.24.23|09:58:13] Training epoch: 5
+[03.24.23|09:58:33] 	mean_loss: nan
+[03.24.23|09:58:33] Time consumption:
+[03.24.23|09:58:33] Done.
+[03.24.23|09:58:33] Training epoch: 6
+[03.24.23|09:58:53] 	mean_loss: nan
+[03.24.23|09:58:53] Time consumption:
+[03.24.23|09:58:53] Done.
+[03.24.23|09:58:53] Training epoch: 7
+[03.24.23|09:59:14] 	mean_loss: nan
+[03.24.23|09:59:14] Time consumption:
+[03.24.23|09:59:14] Done.
+[03.24.23|09:59:14] Training epoch: 8
+[03.24.23|09:59:35] 	mean_loss: nan
+[03.24.23|09:59:35] Time consumption:
+[03.24.23|09:59:35] Done.
+[03.24.23|09:59:35] Training epoch: 9
+[03.24.23|09:59:55] 	mean_loss: nan
+[03.24.23|09:59:55] Time consumption:
+[03.24.23|09:59:55] Done.
+[03.24.23|09:59:55] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|09:59:55] Eval epoch: 9
+[03.24.23|10:00:16] 	mean_loss: 5.9914655685424805
+[03.24.23|10:00:16] 	Top1: 0.00%
+[03.24.23|10:00:16] 	Top5: 0.00%
+[03.24.23|10:00:16] Done.
+[03.24.23|10:00:16] Training epoch: 10
+[03.24.23|10:00:36] 	mean_loss: nan
+[03.24.23|10:00:36] Time consumption:
+[03.24.23|10:00:36] Done.
+[03.24.23|10:00:36] Training epoch: 11
+[03.24.23|10:00:56] 	mean_loss: nan
+[03.24.23|10:00:56] Time consumption:
+[03.24.23|10:00:56] Done.
+[03.24.23|10:00:56] Training epoch: 12
+[03.24.23|10:01:16] 	mean_loss: nan
+[03.24.23|10:01:16] Time consumption:
+[03.24.23|10:01:16] Done.
+[03.24.23|10:01:16] Training epoch: 13
+[03.24.23|10:01:37] 	mean_loss: nan
+[03.24.23|10:01:37] Time consumption:
+[03.24.23|10:01:37] Done.
+[03.24.23|10:01:37] Training epoch: 14
+[03.24.23|10:01:57] 	mean_loss: nan
+[03.24.23|10:01:57] Time consumption:
+[03.24.23|10:01:57] Done.
+[03.24.23|10:01:57] Eval epoch: 14
+[03.24.23|10:02:19] 	mean_loss: 5.9914655685424805
+[03.24.23|10:02:19] 	Top1: 0.00%
+[03.24.23|10:02:19] 	Top5: 0.00%
+[03.24.23|10:02:19] Done.
+[03.24.23|10:02:19] Training epoch: 15
+[03.24.23|10:02:39] 	mean_loss: nan
+[03.24.23|10:02:39] Time consumption:
+[03.24.23|10:02:39] Done.
+[03.24.23|10:02:39] Training epoch: 16
+[03.24.23|10:03:00] 	mean_loss: nan
+[03.24.23|10:03:00] Time consumption:
+[03.24.23|10:03:00] Done.
+[03.24.23|10:03:00] Training epoch: 17
+[03.24.23|10:03:20] 	mean_loss: nan
+[03.24.23|10:03:20] Time consumption:
+[03.24.23|10:03:20] Done.
+[03.24.23|10:03:20] Training epoch: 18
+[03.24.23|10:03:41] 	mean_loss: nan
+[03.24.23|10:03:41] Time consumption:
+[03.24.23|10:03:41] Done.
+[03.24.23|10:03:41] Training epoch: 19
+[03.24.23|10:04:00] 	mean_loss: nan
+[03.24.23|10:04:00] Time consumption:
+[03.24.23|10:04:00] Done.
+[03.24.23|10:04:00] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|10:04:00] Eval epoch: 19
+[03.24.23|10:04:22] 	mean_loss: 5.9914655685424805
+[03.24.23|10:04:22] 	Top1: 0.00%
+[03.24.23|10:04:22] 	Top5: 0.00%
+[03.24.23|10:04:22] Done.
+[03.24.23|10:04:22] Training epoch: 20
+[03.24.23|10:04:42] 	mean_loss: nan
+[03.24.23|10:04:42] Time consumption:
+[03.24.23|10:04:42] Done.
+[03.24.23|10:04:42] Training epoch: 21
+[03.24.23|10:05:02] 	mean_loss: nan
+[03.24.23|10:05:02] Time consumption:
+[03.24.23|10:05:02] Done.
+[03.24.23|10:05:02] Training epoch: 22
+[03.24.23|10:05:22] 	mean_loss: nan
+[03.24.23|10:05:22] Time consumption:
+[03.24.23|10:05:22] Done.
+[03.24.23|10:05:22] Training epoch: 23
+[03.24.23|10:05:42] 	mean_loss: nan
+[03.24.23|10:05:42] Time consumption:
+[03.24.23|10:05:42] Done.
+[03.24.23|10:05:42] Training epoch: 24
+[03.24.23|10:06:02] 	mean_loss: nan
+[03.24.23|10:06:02] Time consumption:
+[03.24.23|10:06:02] Done.
+[03.24.23|10:06:02] Eval epoch: 24
+[03.24.23|10:06:24] 	mean_loss: 5.9914655685424805
+[03.24.23|10:06:24] 	Top1: 0.00%
+[03.24.23|10:06:24] 	Top5: 0.00%
+[03.24.23|10:06:24] Done.
+[03.24.23|10:06:24] Training epoch: 25
+[03.24.23|10:10:36] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|10:10:36] Training epoch: 0
+[03.24.23|10:10:56] 	mean_loss: nan
+[03.24.23|10:10:56] Time consumption:
+[03.24.23|10:10:56] Done.
+[03.24.23|10:10:56] Training epoch: 1
+[03.24.23|10:11:15] 	mean_loss: nan
+[03.24.23|10:11:15] Time consumption:
+[03.24.23|10:11:15] Done.
+[03.24.23|10:11:15] Training epoch: 2
+[03.24.23|10:11:35] 	mean_loss: nan
+[03.24.23|10:11:35] Time consumption:
+[03.24.23|10:11:35] Done.
+[03.24.23|10:11:35] Training epoch: 3
+[03.24.23|10:14:45] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|10:14:45] Training epoch: 0
+[03.24.23|10:15:04] 	mean_loss: nan
+[03.24.23|10:15:04] Time consumption:
+[03.24.23|10:15:04] Done.
+[03.24.23|10:15:04] Training epoch: 1
+[03.24.23|10:24:01] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|10:24:01] Training epoch: 0
+[03.24.23|10:24:21] 	mean_loss: nan
+[03.24.23|10:24:21] Time consumption:
+[03.24.23|10:24:21] Done.
+[03.24.23|10:24:21] Training epoch: 1
+[03.24.23|10:48:22] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|10:48:22] Training epoch: 0
+[03.24.23|12:15:58] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|12:15:58] Training epoch: 0
+[03.24.23|12:16:18] 	mean_loss: nan
+[03.24.23|12:16:18] Time consumption:
+[03.24.23|12:16:18] Done.
+[03.24.23|12:16:18] Training epoch: 1
+[03.24.23|12:16:38] 	mean_loss: nan
+[03.24.23|12:16:38] Time consumption:
+[03.24.23|12:16:38] Done.
+[03.24.23|12:16:38] Training epoch: 2
+[03.24.23|12:16:58] 	mean_loss: nan
+[03.24.23|12:16:58] Time consumption:
+[03.24.23|12:16:58] Done.
+[03.24.23|12:16:58] Training epoch: 3
+[03.24.23|12:17:18] 	mean_loss: nan
+[03.24.23|12:17:18] Time consumption:
+[03.24.23|12:17:18] Done.
+[03.24.23|12:17:18] Training epoch: 4
+[03.24.23|12:17:38] 	mean_loss: nan
+[03.24.23|12:17:38] Time consumption:
+[03.24.23|12:17:38] Done.
+[03.24.23|12:17:38] Eval epoch: 4
+[03.24.23|12:18:00] 	mean_loss: 5.991504192352295
+[03.24.23|12:18:00] 	Top1: 0.00%
+[03.24.23|12:18:00] 	Top5: 0.00%
+[03.24.23|12:18:00] Done.
+[03.24.23|12:18:00] Training epoch: 5
+[03.24.23|12:18:20] 	mean_loss: nan
+[03.24.23|12:18:20] Time consumption:
+[03.24.23|12:18:20] Done.
+[03.24.23|12:18:20] Training epoch: 6
+[03.24.23|12:18:40] 	mean_loss: nan
+[03.24.23|12:18:40] Time consumption:
+[03.24.23|12:18:40] Done.
+[03.24.23|12:18:40] Training epoch: 7
+[03.24.23|12:19:00] 	mean_loss: nan
+[03.24.23|12:19:00] Time consumption:
+[03.24.23|12:19:00] Done.
+[03.24.23|12:19:00] Training epoch: 8
+[03.24.23|12:19:19] 	mean_loss: nan
+[03.24.23|12:19:19] Time consumption:
+[03.24.23|12:19:19] Done.
+[03.24.23|12:19:19] Training epoch: 9
+[03.24.23|12:19:39] 	mean_loss: nan
+[03.24.23|12:19:39] Time consumption:
+[03.24.23|12:19:39] Done.
+[03.24.23|12:19:39] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|12:19:39] Eval epoch: 9
+[03.24.23|12:20:00] 	mean_loss: 5.991504192352295
+[03.24.23|12:20:00] 	Top1: 0.00%
+[03.24.23|12:20:00] 	Top5: 0.00%
+[03.24.23|12:20:00] Done.
+[03.24.23|12:20:00] Training epoch: 10
+[03.24.23|12:20:20] 	mean_loss: nan
+[03.24.23|12:20:20] Time consumption:
+[03.24.23|12:20:20] Done.
+[03.24.23|12:20:20] Training epoch: 11
+[03.24.23|12:20:39] 	mean_loss: nan
+[03.24.23|12:20:39] Time consumption:
+[03.24.23|12:20:39] Done.
+[03.24.23|12:20:39] Training epoch: 12
+[03.24.23|12:20:59] 	mean_loss: nan
+[03.24.23|12:20:59] Time consumption:
+[03.24.23|12:20:59] Done.
+[03.24.23|12:20:59] Training epoch: 13
+[03.24.23|12:21:18] 	mean_loss: nan
+[03.24.23|12:21:18] Time consumption:
+[03.24.23|12:21:18] Done.
+[03.24.23|12:21:18] Training epoch: 14
+[03.24.23|12:21:38] 	mean_loss: nan
+[03.24.23|12:21:38] Time consumption:
+[03.24.23|12:21:38] Done.
+[03.24.23|12:21:38] Eval epoch: 14
+[03.24.23|12:21:59] 	mean_loss: 5.991504192352295
+[03.24.23|12:21:59] 	Top1: 0.00%
+[03.24.23|12:21:59] 	Top5: 0.00%
+[03.24.23|12:21:59] Done.
+[03.24.23|12:21:59] Training epoch: 15
+[03.24.23|12:22:19] 	mean_loss: nan
+[03.24.23|12:22:19] Time consumption:
+[03.24.23|12:22:19] Done.
+[03.24.23|12:22:19] Training epoch: 16
+[03.24.23|12:22:38] 	mean_loss: nan
+[03.24.23|12:22:38] Time consumption:
+[03.24.23|12:22:38] Done.
+[03.24.23|12:22:38] Training epoch: 17
+[03.24.23|12:22:58] 	mean_loss: nan
+[03.24.23|12:22:58] Time consumption:
+[03.24.23|12:22:58] Done.
+[03.24.23|12:22:58] Training epoch: 18
+[03.24.23|12:23:18] 	mean_loss: nan
+[03.24.23|12:23:18] Time consumption:
+[03.24.23|12:23:18] Done.
+[03.24.23|12:23:18] Training epoch: 19
+[03.24.23|12:23:37] 	mean_loss: nan
+[03.24.23|12:23:37] Time consumption:
+[03.24.23|12:23:37] Done.
+[03.24.23|12:23:37] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|12:23:37] Eval epoch: 19
+[03.24.23|12:23:59] 	mean_loss: 5.991504192352295
+[03.24.23|12:23:59] 	Top1: 0.00%
+[03.24.23|12:23:59] 	Top5: 0.00%
+[03.24.23|12:23:59] Done.
+[03.24.23|12:23:59] Training epoch: 20
+[03.24.23|12:24:18] 	mean_loss: nan
+[03.24.23|12:24:18] Time consumption:
+[03.24.23|12:24:18] Done.
+[03.24.23|12:24:18] Training epoch: 21
+[03.24.23|12:24:38] 	mean_loss: nan
+[03.24.23|12:24:38] Time consumption:
+[03.24.23|12:24:38] Done.
+[03.24.23|12:24:38] Training epoch: 22
+[03.24.23|12:24:57] 	mean_loss: nan
+[03.24.23|12:24:57] Time consumption:
+[03.24.23|12:24:57] Done.
+[03.24.23|12:24:57] Training epoch: 23
+[03.24.23|12:25:17] 	mean_loss: nan
+[03.24.23|12:25:17] Time consumption:
+[03.24.23|12:25:17] Done.
+[03.24.23|12:25:17] Training epoch: 24
+[03.24.23|12:25:36] 	mean_loss: nan
+[03.24.23|12:25:36] Time consumption:
+[03.24.23|12:25:36] Done.
+[03.24.23|12:25:36] Eval epoch: 24
+[03.24.23|12:25:58] 	mean_loss: 5.991504192352295
+[03.24.23|12:25:58] 	Top1: 0.00%
+[03.24.23|12:25:58] 	Top5: 0.00%
+[03.24.23|12:25:58] Done.
+[03.24.23|12:25:58] Training epoch: 25
+[03.24.23|12:26:17] 	mean_loss: nan
+[03.24.23|12:26:17] Time consumption:
+[03.24.23|12:26:17] Done.
+[03.24.23|12:26:17] Training epoch: 26
+[03.24.23|12:26:37] 	mean_loss: nan
+[03.24.23|12:26:37] Time consumption:
+[03.24.23|12:26:37] Done.
+[03.24.23|12:26:37] Training epoch: 27
+[03.24.23|12:26:57] 	mean_loss: nan
+[03.24.23|12:26:57] Time consumption:
+[03.24.23|12:26:57] Done.
+[03.24.23|12:26:57] Training epoch: 28
+[03.24.23|12:27:17] 	mean_loss: nan
+[03.24.23|12:27:17] Time consumption:
+[03.24.23|12:27:17] Done.
+[03.24.23|12:27:17] Training epoch: 29
+[03.24.23|12:27:37] 	mean_loss: nan
+[03.24.23|12:27:37] Time consumption:
+[03.24.23|12:27:37] Done.
+[03.24.23|12:27:37] The model has been saved as .\output\/epoch30_model.pt.
+[03.24.23|12:27:37] Eval epoch: 29
+[03.24.23|12:27:59] 	mean_loss: 5.991504192352295
+[03.24.23|12:27:59] 	Top1: 0.00%
+[03.24.23|12:27:59] 	Top5: 0.00%
+[03.24.23|12:27:59] Done.
+[03.24.23|12:27:59] Training epoch: 30
+[03.24.23|12:28:19] 	mean_loss: nan
+[03.24.23|12:28:19] Time consumption:
+[03.24.23|12:28:19] Done.
+[03.24.23|12:28:19] Training epoch: 31
+[03.24.23|12:28:39] 	mean_loss: nan
+[03.24.23|12:28:39] Time consumption:
+[03.24.23|12:28:39] Done.
+[03.24.23|12:28:39] Training epoch: 32
+[03.24.23|12:28:59] 	mean_loss: nan
+[03.24.23|12:28:59] Time consumption:
+[03.24.23|12:28:59] Done.
+[03.24.23|12:28:59] Training epoch: 33
+[03.24.23|12:29:19] 	mean_loss: nan
+[03.24.23|12:29:19] Time consumption:
+[03.24.23|12:29:19] Done.
+[03.24.23|12:29:19] Training epoch: 34
+[03.24.23|12:29:40] 	mean_loss: nan
+[03.24.23|12:29:40] Time consumption:
+[03.24.23|12:29:40] Done.
+[03.24.23|12:29:40] Eval epoch: 34
+[03.24.23|12:30:02] 	mean_loss: 5.991504192352295
+[03.24.23|12:30:02] 	Top1: 0.00%
+[03.24.23|12:30:02] 	Top5: 0.00%
+[03.24.23|12:30:02] Done.
+[03.24.23|12:30:02] Training epoch: 35
+[03.24.23|12:30:22] 	mean_loss: nan
+[03.24.23|12:30:22] Time consumption:
+[03.24.23|12:30:22] Done.
+[03.24.23|12:30:22] Training epoch: 36
+[03.24.23|12:30:42] 	mean_loss: nan
+[03.24.23|12:30:42] Time consumption:
+[03.24.23|12:30:42] Done.
+[03.24.23|12:30:42] Training epoch: 37
+[03.24.23|12:31:03] 	mean_loss: nan
+[03.24.23|12:31:03] Time consumption:
+[03.24.23|12:31:03] Done.
+[03.24.23|12:31:03] Training epoch: 38
+[03.24.23|12:31:23] 	mean_loss: nan
+[03.24.23|12:31:23] Time consumption:
+[03.24.23|12:31:23] Done.
+[03.24.23|12:31:23] Training epoch: 39
+[03.24.23|12:31:43] 	mean_loss: nan
+[03.24.23|12:31:43] Time consumption:
+[03.24.23|12:31:43] Done.
+[03.24.23|12:31:43] The model has been saved as .\output\/epoch40_model.pt.
+[03.24.23|12:31:43] Eval epoch: 39
+[03.24.23|12:32:05] 	mean_loss: 5.991504192352295
+[03.24.23|12:32:05] 	Top1: 0.00%
+[03.24.23|12:32:05] 	Top5: 0.00%
+[03.24.23|12:32:05] Done.
+[03.24.23|12:32:05] Training epoch: 40
+[03.24.23|12:32:24] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|12:32:24] Training epoch: 0
+[03.24.23|12:32:44] 	mean_loss: nan
+[03.24.23|12:32:44] Time consumption:
+[03.24.23|12:32:44] Done.
+[03.24.23|12:32:44] Training epoch: 1
+[03.24.23|12:33:03] 	mean_loss: nan
+[03.24.23|12:33:03] Time consumption:
+[03.24.23|12:33:03] Done.
+[03.24.23|12:33:03] Training epoch: 2
+[03.24.23|12:33:23] 	mean_loss: nan
+[03.24.23|12:33:23] Time consumption:
+[03.24.23|12:33:23] Done.
+[03.24.23|12:33:23] Training epoch: 3
+[03.24.23|12:33:43] 	mean_loss: nan
+[03.24.23|12:33:43] Time consumption:
+[03.24.23|12:33:43] Done.
+[03.24.23|12:33:43] Training epoch: 4
+[03.24.23|12:34:24] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|12:34:24] Training epoch: 0
+[03.24.23|12:34:43] 	mean_loss: nan
+[03.24.23|12:34:43] Time consumption:
+[03.24.23|12:34:43] Done.
+[03.24.23|12:34:43] Training epoch: 1
+[03.24.23|12:35:04] 	mean_loss: nan
+[03.24.23|12:35:04] Time consumption:
+[03.24.23|12:35:04] Done.
+[03.24.23|12:35:04] Training epoch: 2
+[03.24.23|12:35:24] 	mean_loss: nan
+[03.24.23|12:35:24] Time consumption:
+[03.24.23|12:35:24] Done.
+[03.24.23|12:35:24] Training epoch: 3
+[03.24.23|12:35:44] 	mean_loss: nan
+[03.24.23|12:35:44] Time consumption:
+[03.24.23|12:35:44] Done.
+[03.24.23|12:35:44] Training epoch: 4
+[03.24.23|12:36:04] 	mean_loss: nan
+[03.24.23|12:36:04] Time consumption:
+[03.24.23|12:36:04] Done.
+[03.24.23|12:36:04] Eval epoch: 4
+[03.24.23|12:36:26] 	mean_loss: 5.991238117218018
+[03.24.23|12:36:26] 	Top1: 0.00%
+[03.24.23|12:36:26] 	Top5: 0.00%
+[03.24.23|12:36:26] Done.
+[03.24.23|12:36:26] Training epoch: 5
+[03.24.23|12:36:46] 	mean_loss: nan
+[03.24.23|12:36:46] Time consumption:
+[03.24.23|12:36:46] Done.
+[03.24.23|12:36:46] Training epoch: 6
+[03.24.23|12:37:06] 	mean_loss: nan
+[03.24.23|12:37:06] Time consumption:
+[03.24.23|12:37:06] Done.
+[03.24.23|12:37:06] Training epoch: 7
+[03.24.23|12:41:34] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|12:41:34] Training epoch: 0
+[03.24.23|12:41:54] 	mean_loss: nan
+[03.24.23|12:41:54] Time consumption:
+[03.24.23|12:41:54] Done.
+[03.24.23|12:41:54] Training epoch: 1
+[03.24.23|12:42:13] 	mean_loss: nan
+[03.24.23|12:42:13] Time consumption:
+[03.24.23|12:42:13] Done.
+[03.24.23|12:42:13] Training epoch: 2
+[03.24.23|12:42:33] 	mean_loss: nan
+[03.24.23|12:42:33] Time consumption:
+[03.24.23|12:42:33] Done.
+[03.24.23|12:42:33] Training epoch: 3
+[03.24.23|12:42:53] 	mean_loss: nan
+[03.24.23|12:42:53] Time consumption:
+[03.24.23|12:42:53] Done.
+[03.24.23|12:42:53] Training epoch: 4
+[03.24.23|12:43:13] 	mean_loss: nan
+[03.24.23|12:43:13] Time consumption:
+[03.24.23|12:43:13] Done.
+[03.24.23|12:43:13] Eval epoch: 4
+[03.24.23|12:43:35] 	mean_loss: 5.9914751052856445
+[03.24.23|12:43:35] 	Top1: 0.00%
+[03.24.23|12:43:35] 	Top5: 0.00%
+[03.24.23|12:43:35] Done.
+[03.24.23|12:43:35] Training epoch: 5
+[03.24.23|12:43:55] 	mean_loss: nan
+[03.24.23|12:43:55] Time consumption:
+[03.24.23|12:43:55] Done.
+[03.24.23|12:43:55] Training epoch: 6
+[03.24.23|12:44:15] 	mean_loss: nan
+[03.24.23|12:44:15] Time consumption:
+[03.24.23|12:44:15] Done.
+[03.24.23|12:44:15] Training epoch: 7
+[03.24.23|12:44:35] 	mean_loss: nan
+[03.24.23|12:44:35] Time consumption:
+[03.24.23|12:44:35] Done.
+[03.24.23|12:44:35] Training epoch: 8
+[03.24.23|12:44:55] 	mean_loss: nan
+[03.24.23|12:44:55] Time consumption:
+[03.24.23|12:44:55] Done.
+[03.24.23|12:44:55] Training epoch: 9
+[03.24.23|12:45:15] 	mean_loss: nan
+[03.24.23|12:45:15] Time consumption:
+[03.24.23|12:45:15] Done.
+[03.24.23|12:45:15] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|12:45:15] Eval epoch: 9
+[03.24.23|12:45:38] 	mean_loss: 5.9914751052856445
+[03.24.23|12:45:38] 	Top1: 0.00%
+[03.24.23|12:45:38] 	Top5: 0.00%
+[03.24.23|12:45:38] Done.
+[03.24.23|12:45:38] Training epoch: 10
+[03.24.23|12:45:58] 	mean_loss: nan
+[03.24.23|12:45:58] Time consumption:
+[03.24.23|12:45:58] Done.
+[03.24.23|12:45:58] Training epoch: 11
+[03.24.23|12:46:19] 	mean_loss: nan
+[03.24.23|12:46:19] Time consumption:
+[03.24.23|12:46:19] Done.
+[03.24.23|12:46:19] Training epoch: 12
+[03.24.23|12:46:39] 	mean_loss: nan
+[03.24.23|12:46:39] Time consumption:
+[03.24.23|12:46:39] Done.
+[03.24.23|12:46:39] Training epoch: 13
+[03.24.23|12:47:00] 	mean_loss: nan
+[03.24.23|12:47:00] Time consumption:
+[03.24.23|12:47:00] Done.
+[03.24.23|12:47:00] Training epoch: 14
+[03.24.23|12:47:21] 	mean_loss: nan
+[03.24.23|12:47:21] Time consumption:
+[03.24.23|12:47:21] Done.
+[03.24.23|12:47:21] Eval epoch: 14
+[03.24.23|12:47:43] 	mean_loss: 5.9914751052856445
+[03.24.23|12:47:43] 	Top1: 0.00%
+[03.24.23|12:47:43] 	Top5: 0.00%
+[03.24.23|12:47:43] Done.
+[03.24.23|12:47:43] Training epoch: 15
+[03.24.23|12:48:04] 	mean_loss: nan
+[03.24.23|12:48:04] Time consumption:
+[03.24.23|12:48:04] Done.
+[03.24.23|12:48:04] Training epoch: 16
+[03.24.23|12:48:24] 	mean_loss: nan
+[03.24.23|12:48:24] Time consumption:
+[03.24.23|12:48:24] Done.
+[03.24.23|12:48:24] Training epoch: 17
+[03.24.23|12:48:45] 	mean_loss: nan
+[03.24.23|12:48:45] Time consumption:
+[03.24.23|12:48:45] Done.
+[03.24.23|12:48:45] Training epoch: 18
+[03.24.23|12:51:44] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 400, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|12:51:44] Training epoch: 0
+[03.24.23|12:52:04] 	mean_loss: nan
+[03.24.23|12:52:04] Time consumption:
+[03.24.23|12:52:04] Done.
+[03.24.23|12:52:04] Training epoch: 1
+[03.24.23|12:52:24] 	mean_loss: nan
+[03.24.23|12:52:24] Time consumption:
+[03.24.23|12:52:24] Done.
+[03.24.23|12:52:24] Training epoch: 2
+[03.24.23|12:52:44] 	mean_loss: nan
+[03.24.23|12:52:44] Time consumption:
+[03.24.23|12:52:44] Done.
+[03.24.23|12:52:44] Training epoch: 3
+[03.24.23|12:53:04] 	mean_loss: nan
+[03.24.23|12:53:04] Time consumption:
+[03.24.23|12:53:04] Done.
+[03.24.23|12:53:04] Training epoch: 4
+[03.24.23|12:53:24] 	mean_loss: nan
+[03.24.23|12:53:24] Time consumption:
+[03.24.23|12:53:24] Done.
+[03.24.23|12:53:24] Eval epoch: 4
+[03.24.23|12:53:45] 	mean_loss: 5.991347789764404
+[03.24.23|12:53:45] 	Top1: 0.00%
+[03.24.23|12:53:45] 	Top5: 0.00%
+[03.24.23|12:53:45] Done.
+[03.24.23|12:53:45] Training epoch: 5
+[03.24.23|12:54:05] 	mean_loss: nan
+[03.24.23|12:54:05] Time consumption:
+[03.24.23|12:54:05] Done.
+[03.24.23|12:54:05] Training epoch: 6
+[03.24.23|12:54:26] 	mean_loss: nan
+[03.24.23|12:54:26] Time consumption:
+[03.24.23|12:54:26] Done.
+[03.24.23|12:54:26] Training epoch: 7
+[03.24.23|12:54:46] 	mean_loss: nan
+[03.24.23|12:54:46] Time consumption:
+[03.24.23|12:54:46] Done.
+[03.24.23|12:54:46] Training epoch: 8
+[03.24.23|12:55:06] 	mean_loss: nan
+[03.24.23|12:55:06] Time consumption:
+[03.24.23|12:55:06] Done.
+[03.24.23|12:55:06] Training epoch: 9
+[03.24.23|12:55:26] 	mean_loss: nan
+[03.24.23|12:55:26] Time consumption:
+[03.24.23|12:55:26] Done.
+[03.24.23|12:55:26] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|12:55:26] Eval epoch: 9
+[03.24.23|12:55:47] 	mean_loss: 5.991347789764404
+[03.24.23|12:55:47] 	Top1: 0.00%
+[03.24.23|12:55:47] 	Top5: 0.00%
+[03.24.23|12:55:47] Done.
+[03.24.23|12:55:47] Training epoch: 10
+[03.24.23|12:56:07] 	mean_loss: nan
+[03.24.23|12:56:07] Time consumption:
+[03.24.23|12:56:07] Done.
+[03.24.23|12:56:07] Training epoch: 11
+[03.24.23|13:01:24] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|13:01:24] Training epoch: 0
+[03.24.23|13:01:44] 	mean_loss: nan
+[03.24.23|13:01:44] Time consumption:
+[03.24.23|13:01:44] Done.
+[03.24.23|13:01:44] Training epoch: 1
+[03.24.23|13:02:05] 	mean_loss: nan
+[03.24.23|13:02:05] Time consumption:
+[03.24.23|13:02:05] Done.
+[03.24.23|13:02:05] Training epoch: 2
+[03.24.23|13:02:25] 	mean_loss: nan
+[03.24.23|13:02:25] Time consumption:
+[03.24.23|13:02:25] Done.
+[03.24.23|13:02:25] Training epoch: 3
+[03.24.23|13:02:45] 	mean_loss: nan
+[03.24.23|13:02:45] Time consumption:
+[03.24.23|13:02:45] Done.
+[03.24.23|13:02:45] Training epoch: 4
+[03.24.23|13:03:05] 	mean_loss: nan
+[03.24.23|13:03:05] Time consumption:
+[03.24.23|13:03:05] Done.
+[03.24.23|13:03:05] Eval epoch: 4
+[03.24.23|13:03:27] 	mean_loss: 1.609539270401001
+[03.24.23|13:03:27] 	Top1: 20.00%
+[03.24.23|13:03:27] 	Top5: 100.00%
+[03.24.23|13:03:27] Done.
+[03.24.23|13:03:27] Training epoch: 5
+[03.24.23|13:03:46] 	mean_loss: nan
+[03.24.23|13:03:46] Time consumption:
+[03.24.23|13:03:46] Done.
+[03.24.23|13:03:46] Training epoch: 6
+[03.24.23|13:04:06] 	mean_loss: nan
+[03.24.23|13:04:06] Time consumption:
+[03.24.23|13:04:06] Done.
+[03.24.23|13:04:06] Training epoch: 7
+[03.24.23|13:04:26] 	mean_loss: nan
+[03.24.23|13:04:26] Time consumption:
+[03.24.23|13:04:26] Done.
+[03.24.23|13:04:26] Training epoch: 8
+[03.24.23|13:04:46] 	mean_loss: nan
+[03.24.23|13:04:46] Time consumption:
+[03.24.23|13:04:46] Done.
+[03.24.23|13:04:46] Training epoch: 9
+[03.24.23|13:05:05] 	mean_loss: nan
+[03.24.23|13:05:05] Time consumption:
+[03.24.23|13:05:05] Done.
+[03.24.23|13:05:05] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|13:05:05] Eval epoch: 9
+[03.24.23|13:05:27] 	mean_loss: 1.609539270401001
+[03.24.23|13:05:27] 	Top1: 20.00%
+[03.24.23|13:05:27] 	Top5: 100.00%
+[03.24.23|13:05:27] Done.
+[03.24.23|13:05:27] Training epoch: 10
+[03.24.23|13:05:46] 	mean_loss: nan
+[03.24.23|13:05:46] Time consumption:
+[03.24.23|13:05:46] Done.
+[03.24.23|13:05:46] Training epoch: 11
+[03.24.23|13:06:06] 	mean_loss: nan
+[03.24.23|13:06:06] Time consumption:
+[03.24.23|13:06:06] Done.
+[03.24.23|13:06:06] Training epoch: 12
+[03.24.23|13:06:26] 	mean_loss: nan
+[03.24.23|13:06:26] Time consumption:
+[03.24.23|13:06:26] Done.
+[03.24.23|13:06:26] Training epoch: 13
+[03.24.23|13:06:46] 	mean_loss: nan
+[03.24.23|13:06:46] Time consumption:
+[03.24.23|13:06:46] Done.
+[03.24.23|13:06:46] Training epoch: 14
+[03.24.23|13:07:07] 	mean_loss: nan
+[03.24.23|13:07:07] Time consumption:
+[03.24.23|13:07:07] Done.
+[03.24.23|13:07:07] Eval epoch: 14
+[03.24.23|13:07:28] 	mean_loss: 1.609539270401001
+[03.24.23|13:07:28] 	Top1: 20.00%
+[03.24.23|13:07:28] 	Top5: 100.00%
+[03.24.23|13:07:28] Done.
+[03.24.23|13:07:28] Training epoch: 15
+[03.24.23|13:07:49] 	mean_loss: nan
+[03.24.23|13:07:49] Time consumption:
+[03.24.23|13:07:49] Done.
+[03.24.23|13:07:49] Training epoch: 16
+[03.24.23|13:08:09] 	mean_loss: nan
+[03.24.23|13:08:09] Time consumption:
+[03.24.23|13:08:09] Done.
+[03.24.23|13:08:09] Training epoch: 17
+[03.24.23|13:08:29] 	mean_loss: nan
+[03.24.23|13:08:29] Time consumption:
+[03.24.23|13:08:29] Done.
+[03.24.23|13:08:29] Training epoch: 18
+[03.24.23|13:08:49] 	mean_loss: nan
+[03.24.23|13:08:49] Time consumption:
+[03.24.23|13:08:49] Done.
+[03.24.23|13:08:49] Training epoch: 19
+[03.24.23|13:09:09] 	mean_loss: nan
+[03.24.23|13:09:09] Time consumption:
+[03.24.23|13:09:09] Done.
+[03.24.23|13:09:09] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|13:09:09] Eval epoch: 19
+[03.24.23|13:09:31] 	mean_loss: 1.609539270401001
+[03.24.23|13:09:31] 	Top1: 20.00%
+[03.24.23|13:09:31] 	Top5: 100.00%
+[03.24.23|13:09:31] Done.
+[03.24.23|13:09:31] Training epoch: 20
+[03.24.23|13:09:51] 	mean_loss: nan
+[03.24.23|13:09:51] Time consumption:
+[03.24.23|13:09:51] Done.
+[03.24.23|13:09:51] Training epoch: 21
+[03.24.23|13:10:11] 	mean_loss: nan
+[03.24.23|13:10:11] Time consumption:
+[03.24.23|13:10:11] Done.
+[03.24.23|13:10:11] Training epoch: 22
+[03.24.23|13:10:31] 	mean_loss: nan
+[03.24.23|13:10:31] Time consumption:
+[03.24.23|13:10:31] Done.
+[03.24.23|13:10:31] Training epoch: 23
+[03.24.23|13:10:51] 	mean_loss: nan
+[03.24.23|13:10:51] Time consumption:
+[03.24.23|13:10:51] Done.
+[03.24.23|13:10:51] Training epoch: 24
+[03.24.23|13:11:11] 	mean_loss: nan
+[03.24.23|13:11:11] Time consumption:
+[03.24.23|13:11:11] Done.
+[03.24.23|13:11:11] Eval epoch: 24
+[03.24.23|13:11:32] 	mean_loss: 1.609539270401001
+[03.24.23|13:11:32] 	Top1: 20.00%
+[03.24.23|13:11:32] 	Top5: 100.00%
+[03.24.23|13:11:32] Done.
+[03.24.23|13:11:32] Training epoch: 25
+[03.24.23|13:13:55] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.1, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|13:13:55] Training epoch: 0
+[03.24.23|13:14:15] 	mean_loss: nan
+[03.24.23|13:14:15] Time consumption:
+[03.24.23|13:14:15] Done.
+[03.24.23|13:14:15] Training epoch: 1
+[03.24.23|13:14:36] 	mean_loss: nan
+[03.24.23|13:14:36] Time consumption:
+[03.24.23|13:14:36] Done.
+[03.24.23|13:14:36] Training epoch: 2
+[03.24.23|13:14:56] 	mean_loss: nan
+[03.24.23|13:14:56] Time consumption:
+[03.24.23|13:14:56] Done.
+[03.24.23|13:14:56] Training epoch: 3
+[03.24.23|13:15:17] 	mean_loss: nan
+[03.24.23|13:15:17] Time consumption:
+[03.24.23|13:15:17] Done.
+[03.24.23|13:15:17] Training epoch: 4
+[03.24.23|13:15:38] 	mean_loss: nan
+[03.24.23|13:15:38] Time consumption:
+[03.24.23|13:15:38] Done.
+[03.24.23|13:15:38] Eval epoch: 4
+[03.24.23|13:16:00] 	mean_loss: 1.6094413995742798
+[03.24.23|13:16:00] 	Top1: 20.00%
+[03.24.23|13:16:00] 	Top5: 100.00%
+[03.24.23|13:16:00] Done.
+[03.24.23|13:16:00] Training epoch: 5
+[03.24.23|13:16:19] 	mean_loss: nan
+[03.24.23|13:16:19] Time consumption:
+[03.24.23|13:16:19] Done.
+[03.24.23|13:16:19] Training epoch: 6
+[03.24.23|13:16:40] 	mean_loss: nan
+[03.24.23|13:16:40] Time consumption:
+[03.24.23|13:16:40] Done.
+[03.24.23|13:16:40] Training epoch: 7
+[03.24.23|13:17:00] 	mean_loss: nan
+[03.24.23|13:17:00] Time consumption:
+[03.24.23|13:17:00] Done.
+[03.24.23|13:17:00] Training epoch: 8
+[03.24.23|13:17:20] 	mean_loss: nan
+[03.24.23|13:17:20] Time consumption:
+[03.24.23|13:17:20] Done.
+[03.24.23|13:17:20] Training epoch: 9
+[03.24.23|13:17:40] 	mean_loss: nan
+[03.24.23|13:17:40] Time consumption:
+[03.24.23|13:17:40] Done.
+[03.24.23|13:17:40] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|13:17:40] Eval epoch: 9
+[03.24.23|13:18:01] 	mean_loss: 1.6094413995742798
+[03.24.23|13:18:01] 	Top1: 20.00%
+[03.24.23|13:18:01] 	Top5: 100.00%
+[03.24.23|13:18:01] Done.
+[03.24.23|13:18:01] Training epoch: 10
+[03.24.23|13:18:22] 	mean_loss: nan
+[03.24.23|13:18:22] Time consumption:
+[03.24.23|13:18:22] Done.
+[03.24.23|13:18:22] Training epoch: 11
+[03.24.23|13:18:43] 	mean_loss: nan
+[03.24.23|13:18:43] Time consumption:
+[03.24.23|13:18:43] Done.
+[03.24.23|13:18:43] Training epoch: 12
+[03.24.23|13:19:03] 	mean_loss: nan
+[03.24.23|13:19:03] Time consumption:
+[03.24.23|13:19:03] Done.
+[03.24.23|13:19:03] Training epoch: 13
+[03.24.23|13:19:23] 	mean_loss: nan
+[03.24.23|13:19:23] Time consumption:
+[03.24.23|13:19:23] Done.
+[03.24.23|13:19:23] Training epoch: 14
+[03.24.23|13:19:44] 	mean_loss: nan
+[03.24.23|13:19:44] Time consumption:
+[03.24.23|13:19:44] Done.
+[03.24.23|13:19:44] Eval epoch: 14
+[03.24.23|13:20:05] 	mean_loss: 1.6094413995742798
+[03.24.23|13:20:05] 	Top1: 20.00%
+[03.24.23|13:20:05] 	Top5: 100.00%
+[03.24.23|13:20:05] Done.
+[03.24.23|13:20:05] Training epoch: 15
+[03.24.23|13:20:25] 	mean_loss: nan
+[03.24.23|13:20:25] Time consumption:
+[03.24.23|13:20:25] Done.
+[03.24.23|13:20:25] Training epoch: 16
+[03.24.23|13:20:45] 	mean_loss: nan
+[03.24.23|13:20:45] Time consumption:
+[03.24.23|13:20:45] Done.
+[03.24.23|13:20:45] Training epoch: 17
+[03.24.23|13:21:05] 	mean_loss: nan
+[03.24.23|13:21:05] Time consumption:
+[03.24.23|13:21:05] Done.
+[03.24.23|13:21:05] Training epoch: 18
+[03.24.23|13:21:25] 	mean_loss: nan
+[03.24.23|13:21:25] Time consumption:
+[03.24.23|13:21:25] Done.
+[03.24.23|13:21:25] Training epoch: 19
+[03.24.23|13:21:45] 	mean_loss: nan
+[03.24.23|13:21:45] Time consumption:
+[03.24.23|13:21:45] Done.
+[03.24.23|13:21:45] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|13:21:45] Eval epoch: 19
+[03.24.23|13:22:07] 	mean_loss: 1.6094413995742798
+[03.24.23|13:22:07] 	Top1: 20.00%
+[03.24.23|13:22:07] 	Top5: 100.00%
+[03.24.23|13:22:07] Done.
+[03.24.23|13:22:07] Training epoch: 20
+[03.24.23|13:22:28] 	mean_loss: nan
+[03.24.23|13:22:28] Time consumption:
+[03.24.23|13:22:28] Done.
+[03.24.23|13:22:28] Training epoch: 21
+[03.24.23|13:22:48] 	mean_loss: nan
+[03.24.23|13:22:48] Time consumption:
+[03.24.23|13:22:48] Done.
+[03.24.23|13:22:48] Training epoch: 22
+[03.24.23|13:23:08] 	mean_loss: nan
+[03.24.23|13:23:08] Time consumption:
+[03.24.23|13:23:08] Done.
+[03.24.23|13:23:08] Training epoch: 23
+[03.24.23|13:23:28] 	mean_loss: nan
+[03.24.23|13:23:28] Time consumption:
+[03.24.23|13:23:28] Done.
+[03.24.23|13:23:28] Training epoch: 24
+[03.24.23|13:23:48] 	mean_loss: nan
+[03.24.23|13:23:48] Time consumption:
+[03.24.23|13:23:48] Done.
+[03.24.23|13:23:48] Eval epoch: 24
+[03.24.23|13:24:10] 	mean_loss: 1.6094413995742798
+[03.24.23|13:24:10] 	Top1: 20.00%
+[03.24.23|13:24:10] 	Top5: 100.00%
+[03.24.23|13:24:10] Done.
+[03.24.23|13:24:10] Training epoch: 25
+[03.24.23|13:24:30] 	mean_loss: nan
+[03.24.23|13:24:30] Time consumption:
+[03.24.23|13:24:30] Done.
+[03.24.23|13:24:30] Training epoch: 26
+[03.24.23|13:24:50] 	mean_loss: nan
+[03.24.23|13:24:50] Time consumption:
+[03.24.23|13:24:50] Done.
+[03.24.23|13:24:50] Training epoch: 27
+[03.24.23|13:25:10] 	mean_loss: nan
+[03.24.23|13:25:10] Time consumption:
+[03.24.23|13:25:10] Done.
+[03.24.23|13:25:10] Training epoch: 28
+[03.24.23|13:25:29] 	mean_loss: nan
+[03.24.23|13:25:29] Time consumption:
+[03.24.23|13:25:29] Done.
+[03.24.23|13:25:29] Training epoch: 29
+[03.24.23|13:25:49] 	mean_loss: nan
+[03.24.23|13:25:49] Time consumption:
+[03.24.23|13:25:49] Done.
+[03.24.23|13:25:49] The model has been saved as .\output\/epoch30_model.pt.
+[03.24.23|13:25:49] Eval epoch: 29
+[03.24.23|13:26:10] 	mean_loss: 1.6094413995742798
+[03.24.23|13:26:10] 	Top1: 20.00%
+[03.24.23|13:26:10] 	Top5: 100.00%
+[03.24.23|13:26:10] Done.
+[03.24.23|13:26:10] Training epoch: 30
+[03.24.23|13:26:30] 	mean_loss: nan
+[03.24.23|13:26:30] Time consumption:
+[03.24.23|13:26:30] Done.
+[03.24.23|13:26:30] Training epoch: 31
+[03.24.23|13:26:49] 	mean_loss: nan
+[03.24.23|13:26:49] Time consumption:
+[03.24.23|13:26:49] Done.
+[03.24.23|13:26:49] Training epoch: 32
+[03.24.23|13:27:09] 	mean_loss: nan
+[03.24.23|13:27:09] Time consumption:
+[03.24.23|13:27:09] Done.
+[03.24.23|13:27:09] Training epoch: 33
+[03.24.23|13:27:31] 	mean_loss: nan
+[03.24.23|13:27:31] Time consumption:
+[03.24.23|13:27:31] Done.
+[03.24.23|13:27:31] Training epoch: 34
+[03.24.23|13:27:51] 	mean_loss: nan
+[03.24.23|13:27:51] Time consumption:
+[03.24.23|13:27:51] Done.
+[03.24.23|13:27:51] Eval epoch: 34
+[03.24.23|13:28:12] 	mean_loss: 1.6094413995742798
+[03.24.23|13:28:12] 	Top1: 20.00%
+[03.24.23|13:28:12] 	Top5: 100.00%
+[03.24.23|13:28:12] Done.
+[03.24.23|13:28:12] Training epoch: 35
+[03.24.23|13:28:32] 	mean_loss: nan
+[03.24.23|13:28:32] Time consumption:
+[03.24.23|13:28:32] Done.
+[03.24.23|13:28:32] Training epoch: 36
+[03.24.23|13:28:52] 	mean_loss: nan
+[03.24.23|13:28:52] Time consumption:
+[03.24.23|13:28:52] Done.
+[03.24.23|13:28:52] Training epoch: 37
+[03.24.23|13:29:13] 	mean_loss: nan
+[03.24.23|13:29:13] Time consumption:
+[03.24.23|13:29:13] Done.
+[03.24.23|13:29:13] Training epoch: 38
+[03.24.23|13:29:35] 	mean_loss: nan
+[03.24.23|13:29:35] Time consumption:
+[03.24.23|13:29:35] Done.
+[03.24.23|13:29:35] Training epoch: 39
+[03.24.23|13:29:54] 	mean_loss: nan
+[03.24.23|13:29:54] Time consumption:
+[03.24.23|13:29:54] Done.
+[03.24.23|13:29:54] The model has been saved as .\output\/epoch40_model.pt.
+[03.24.23|13:29:54] Eval epoch: 39
+[03.24.23|13:30:17] 	mean_loss: 1.6094413995742798
+[03.24.23|13:30:17] 	Top1: 20.00%
+[03.24.23|13:30:17] 	Top5: 100.00%
+[03.24.23|13:30:17] Done.
+[03.24.23|13:30:17] Training epoch: 40
+[03.24.23|13:30:39] 	mean_loss: nan
+[03.24.23|13:30:39] Time consumption:
+[03.24.23|13:30:39] Done.
+[03.24.23|13:30:39] Training epoch: 41
+[03.24.23|13:31:02] 	mean_loss: nan
+[03.24.23|13:31:02] Time consumption:
+[03.24.23|13:31:02] Done.
+[03.24.23|13:31:02] Training epoch: 42
+[03.24.23|13:31:23] 	mean_loss: nan
+[03.24.23|13:31:23] Time consumption:
+[03.24.23|13:31:23] Done.
+[03.24.23|13:31:23] Training epoch: 43
+[03.24.23|13:31:31] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 50, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.001, 'step': [20, 30, 40, 50], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|13:31:31] Training epoch: 0
+[03.24.23|13:31:51] 	mean_loss: nan
+[03.24.23|13:31:51] Time consumption:
+[03.24.23|13:31:51] Done.
+[03.24.23|13:31:51] Training epoch: 1
+[03.24.23|13:32:11] 	mean_loss: nan
+[03.24.23|13:32:11] Time consumption:
+[03.24.23|13:32:11] Done.
+[03.24.23|13:32:11] Training epoch: 2
+[03.24.23|13:32:32] 	mean_loss: nan
+[03.24.23|13:32:32] Time consumption:
+[03.24.23|13:32:32] Done.
+[03.24.23|13:32:32] Training epoch: 3
+[03.24.23|13:32:53] 	mean_loss: nan
+[03.24.23|13:32:53] Time consumption:
+[03.24.23|13:32:53] Done.
+[03.24.23|13:32:53] Training epoch: 4
+[03.24.23|13:33:13] 	mean_loss: nan
+[03.24.23|13:33:13] Time consumption:
+[03.24.23|13:33:13] Done.
+[03.24.23|13:33:13] Eval epoch: 4
+[03.24.23|13:33:34] 	mean_loss: 1.6094375848770142
+[03.24.23|13:33:34] 	Top1: 20.00%
+[03.24.23|13:33:34] 	Top5: 100.00%
+[03.24.23|13:33:34] Done.
+[03.24.23|13:33:34] Training epoch: 5
+[03.24.23|13:33:54] 	mean_loss: nan
+[03.24.23|13:33:54] Time consumption:
+[03.24.23|13:33:54] Done.
+[03.24.23|13:33:54] Training epoch: 6
+[03.24.23|13:34:14] 	mean_loss: nan
+[03.24.23|13:34:14] Time consumption:
+[03.24.23|13:34:14] Done.
+[03.24.23|13:34:14] Training epoch: 7
+[03.24.23|13:34:34] 	mean_loss: nan
+[03.24.23|13:34:34] Time consumption:
+[03.24.23|13:34:34] Done.
+[03.24.23|13:34:34] Training epoch: 8
+[03.24.23|13:34:54] 	mean_loss: nan
+[03.24.23|13:34:54] Time consumption:
+[03.24.23|13:34:54] Done.
+[03.24.23|13:34:54] Training epoch: 9
+[03.24.23|13:35:14] 	mean_loss: nan
+[03.24.23|13:35:14] Time consumption:
+[03.24.23|13:35:14] Done.
+[03.24.23|13:35:15] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|13:35:15] Eval epoch: 9
+[03.24.23|13:35:36] 	mean_loss: 1.6094375848770142
+[03.24.23|13:35:36] 	Top1: 20.00%
+[03.24.23|13:35:36] 	Top5: 100.00%
+[03.24.23|13:35:36] Done.
+[03.24.23|13:35:36] Training epoch: 10
+[03.24.23|13:35:56] 	mean_loss: nan
+[03.24.23|13:35:56] Time consumption:
+[03.24.23|13:35:56] Done.
+[03.24.23|13:35:56] Training epoch: 11
+[03.24.23|13:36:16] 	mean_loss: nan
+[03.24.23|13:36:16] Time consumption:
+[03.24.23|13:36:16] Done.
+[03.24.23|13:36:16] Training epoch: 12
+[03.24.23|13:36:37] 	mean_loss: nan
+[03.24.23|13:36:37] Time consumption:
+[03.24.23|13:36:37] Done.
+[03.24.23|13:36:37] Training epoch: 13
+[03.24.23|13:36:57] 	mean_loss: nan
+[03.24.23|13:36:57] Time consumption:
+[03.24.23|13:36:57] Done.
+[03.24.23|13:36:57] Training epoch: 14
+[03.24.23|13:37:17] 	mean_loss: nan
+[03.24.23|13:37:17] Time consumption:
+[03.24.23|13:37:17] Done.
+[03.24.23|13:37:17] Eval epoch: 14
+[03.24.23|13:37:39] 	mean_loss: 1.6094375848770142
+[03.24.23|13:37:39] 	Top1: 20.00%
+[03.24.23|13:37:39] 	Top5: 100.00%
+[03.24.23|13:37:39] Done.
+[03.24.23|13:37:39] Training epoch: 15
+[03.24.23|13:37:59] 	mean_loss: nan
+[03.24.23|13:37:59] Time consumption:
+[03.24.23|13:37:59] Done.
+[03.24.23|13:37:59] Training epoch: 16
+[03.24.23|13:38:20] 	mean_loss: nan
+[03.24.23|13:38:20] Time consumption:
+[03.24.23|13:38:20] Done.
+[03.24.23|13:38:20] Training epoch: 17
+[03.24.23|13:38:40] 	mean_loss: nan
+[03.24.23|13:38:40] Time consumption:
+[03.24.23|13:38:40] Done.
+[03.24.23|13:38:40] Training epoch: 18
+[03.24.23|13:39:00] 	mean_loss: nan
+[03.24.23|13:39:00] Time consumption:
+[03.24.23|13:39:00] Done.
+[03.24.23|13:39:00] Training epoch: 19
+[03.24.23|13:39:20] 	mean_loss: nan
+[03.24.23|13:39:20] Time consumption:
+[03.24.23|13:39:20] Done.
+[03.24.23|13:39:20] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|13:39:20] Eval epoch: 19
+[03.24.23|13:39:41] 	mean_loss: 1.6094375848770142
+[03.24.23|13:39:41] 	Top1: 20.00%
+[03.24.23|13:39:41] 	Top5: 100.00%
+[03.24.23|13:39:41] Done.
+[03.24.23|13:39:41] Training epoch: 20
+[03.24.23|13:40:02] 	mean_loss: nan
+[03.24.23|13:40:02] Time consumption:
+[03.24.23|13:40:02] Done.
+[03.24.23|13:40:02] Training epoch: 21
+[03.24.23|13:40:23] 	mean_loss: nan
+[03.24.23|13:40:23] Time consumption:
+[03.24.23|13:40:23] Done.
+[03.24.23|13:40:23] Training epoch: 22
+[03.24.23|13:40:43] 	mean_loss: nan
+[03.24.23|13:40:43] Time consumption:
+[03.24.23|13:40:43] Done.
+[03.24.23|13:40:43] Training epoch: 23
+[03.24.23|13:41:04] 	mean_loss: nan
+[03.24.23|13:41:04] Time consumption:
+[03.24.23|13:41:04] Done.
+[03.24.23|13:41:04] Training epoch: 24
+[03.24.23|13:41:25] 	mean_loss: nan
+[03.24.23|13:41:25] Time consumption:
+[03.24.23|13:41:25] Done.
+[03.24.23|13:41:25] Eval epoch: 24
+[03.24.23|13:41:47] 	mean_loss: 1.6094375848770142
+[03.24.23|13:41:47] 	Top1: 20.00%
+[03.24.23|13:41:47] 	Top5: 100.00%
+[03.24.23|13:41:47] Done.
+[03.24.23|13:41:47] Training epoch: 25
+[03.24.23|13:42:07] 	mean_loss: nan
+[03.24.23|13:42:07] Time consumption:
+[03.24.23|13:42:07] Done.
+[03.24.23|13:42:07] Training epoch: 26
+[03.24.23|13:42:28] 	mean_loss: nan
+[03.24.23|13:42:28] Time consumption:
+[03.24.23|13:42:28] Done.
+[03.24.23|13:42:28] Training epoch: 27
+[03.24.23|13:42:48] 	mean_loss: nan
+[03.24.23|13:42:48] Time consumption:
+[03.24.23|13:42:48] Done.
+[03.24.23|13:42:48] Training epoch: 28
+[03.24.23|13:43:09] 	mean_loss: nan
+[03.24.23|13:43:09] Time consumption:
+[03.24.23|13:43:09] Done.
+[03.24.23|13:43:09] Training epoch: 29
+[03.24.23|13:43:29] 	mean_loss: nan
+[03.24.23|13:43:29] Time consumption:
+[03.24.23|13:43:29] Done.
+[03.24.23|13:43:29] The model has been saved as .\output\/epoch30_model.pt.
+[03.24.23|13:43:29] Eval epoch: 29
+[03.24.23|13:43:51] 	mean_loss: 1.6094375848770142
+[03.24.23|13:43:51] 	Top1: 20.00%
+[03.24.23|13:43:51] 	Top5: 100.00%
+[03.24.23|13:43:51] Done.
+[03.24.23|13:43:51] Training epoch: 30
+[03.24.23|13:44:11] 	mean_loss: nan
+[03.24.23|13:44:11] Time consumption:
+[03.24.23|13:44:11] Done.
+[03.24.23|13:44:11] Training epoch: 31
+[03.24.23|13:44:32] 	mean_loss: nan
+[03.24.23|13:44:32] Time consumption:
+[03.24.23|13:44:32] Done.
+[03.24.23|13:44:32] Training epoch: 32
+[03.24.23|13:44:52] 	mean_loss: nan
+[03.24.23|13:44:52] Time consumption:
+[03.24.23|13:44:52] Done.
+[03.24.23|13:44:52] Training epoch: 33
+[03.24.23|13:45:12] 	mean_loss: nan
+[03.24.23|13:45:12] Time consumption:
+[03.24.23|13:45:12] Done.
+[03.24.23|13:45:12] Training epoch: 34
+[03.24.23|13:45:32] 	mean_loss: nan
+[03.24.23|13:45:32] Time consumption:
+[03.24.23|13:45:32] Done.
+[03.24.23|13:45:32] Eval epoch: 34
+[03.24.23|13:45:53] 	mean_loss: 1.6094375848770142
+[03.24.23|13:45:53] 	Top1: 20.00%
+[03.24.23|13:45:53] 	Top5: 100.00%
+[03.24.23|13:45:53] Done.
+[03.24.23|13:45:53] Training epoch: 35
+[03.24.23|13:46:14] 	mean_loss: nan
+[03.24.23|13:46:14] Time consumption:
+[03.24.23|13:46:14] Done.
+[03.24.23|13:46:14] Training epoch: 36
+[03.24.23|13:46:34] 	mean_loss: nan
+[03.24.23|13:46:34] Time consumption:
+[03.24.23|13:46:34] Done.
+[03.24.23|13:46:34] Training epoch: 37
+[03.24.23|13:46:54] 	mean_loss: nan
+[03.24.23|13:46:54] Time consumption:
+[03.24.23|13:46:54] Done.
+[03.24.23|13:46:54] Training epoch: 38
+[03.24.23|13:47:15] 	mean_loss: nan
+[03.24.23|13:47:15] Time consumption:
+[03.24.23|13:47:15] Done.
+[03.24.23|13:47:15] Training epoch: 39
+[03.24.23|13:47:35] 	mean_loss: nan
+[03.24.23|13:47:35] Time consumption:
+[03.24.23|13:47:35] Done.
+[03.24.23|13:47:35] The model has been saved as .\output\/epoch40_model.pt.
+[03.24.23|13:47:35] Eval epoch: 39
+[03.24.23|13:47:56] 	mean_loss: 1.6094375848770142
+[03.24.23|13:47:56] 	Top1: 20.00%
+[03.24.23|13:47:56] 	Top5: 100.00%
+[03.24.23|13:47:56] Done.
+[03.24.23|13:47:56] Training epoch: 40
+[03.24.23|13:48:16] 	mean_loss: nan
+[03.24.23|13:48:16] Time consumption:
+[03.24.23|13:48:16] Done.
+[03.24.23|13:48:16] Training epoch: 41
+[03.24.23|13:48:36] 	mean_loss: nan
+[03.24.23|13:48:36] Time consumption:
+[03.24.23|13:48:36] Done.
+[03.24.23|13:48:36] Training epoch: 42
+[03.24.23|13:48:56] 	mean_loss: nan
+[03.24.23|13:48:56] Time consumption:
+[03.24.23|13:48:56] Done.
+[03.24.23|13:48:56] Training epoch: 43
+[03.24.23|13:49:17] 	mean_loss: nan
+[03.24.23|13:49:17] Time consumption:
+[03.24.23|13:49:17] Done.
+[03.24.23|13:49:17] Training epoch: 44
+[03.24.23|13:49:38] 	mean_loss: nan
+[03.24.23|13:49:38] Time consumption:
+[03.24.23|13:49:38] Done.
+[03.24.23|13:49:38] Eval epoch: 44
+[03.24.23|13:50:00] 	mean_loss: 1.6094375848770142
+[03.24.23|13:50:00] 	Top1: 20.00%
+[03.24.23|13:50:00] 	Top5: 100.00%
+[03.24.23|13:50:00] Done.
+[03.24.23|13:50:00] Training epoch: 45
+[03.24.23|13:50:21] 	mean_loss: nan
+[03.24.23|13:50:21] Time consumption:
+[03.24.23|13:50:21] Done.
+[03.24.23|13:50:21] Training epoch: 46
+[03.24.23|13:50:41] 	mean_loss: nan
+[03.24.23|13:50:41] Time consumption:
+[03.24.23|13:50:41] Done.
+[03.24.23|13:50:41] Training epoch: 47
+[03.24.23|13:51:01] 	mean_loss: nan
+[03.24.23|13:51:01] Time consumption:
+[03.24.23|13:51:01] Done.
+[03.24.23|13:51:01] Training epoch: 48
+[03.24.23|13:51:21] 	mean_loss: nan
+[03.24.23|13:51:21] Time consumption:
+[03.24.23|13:51:21] Done.
+[03.24.23|13:51:21] Training epoch: 49
+[03.24.23|13:51:41] 	mean_loss: nan
+[03.24.23|13:51:41] Time consumption:
+[03.24.23|13:51:41] Done.
+[03.24.23|13:51:41] The model has been saved as .\output\/epoch50_model.pt.
+[03.24.23|13:51:41] Eval epoch: 49
+[03.24.23|13:52:03] 	mean_loss: 1.6094375848770142
+[03.24.23|13:52:03] 	Top1: 20.00%
+[03.24.23|13:52:03] 	Top5: 100.00%
+[03.24.23|13:52:03] Done.
+[03.24.23|13:57:51] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 256, 'test_batch_size': 256, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|13:57:51] Training epoch: 0
+[03.24.23|13:58:24] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|13:58:24] Training epoch: 0
+[03.24.23|13:58:44] 	Iter 0 Done. | loss: 1.4824 | lr: 0.010000
+[03.24.23|13:58:46] 	mean_loss: 2.407909631729126
+[03.24.23|13:58:46] Time consumption:
+[03.24.23|13:58:46] Done.
+[03.24.23|13:58:46] Training epoch: 1
+[03.24.23|13:59:07] 	mean_loss: 2.335760533809662
+[03.24.23|13:59:07] Time consumption:
+[03.24.23|13:59:07] Done.
+[03.24.23|13:59:07] Training epoch: 2
+[03.24.23|13:59:28] 	mean_loss: 3.0085829496383667
+[03.24.23|13:59:28] Time consumption:
+[03.24.23|13:59:28] Done.
+[03.24.23|13:59:28] Training epoch: 3
+[03.24.23|13:59:49] 	mean_loss: 2.4915818572044373
+[03.24.23|13:59:49] Time consumption:
+[03.24.23|13:59:49] Done.
+[03.24.23|13:59:49] Training epoch: 4
+[03.24.23|14:00:10] 	mean_loss: 1.5827940702438354
+[03.24.23|14:00:10] Time consumption:
+[03.24.23|14:00:10] Done.
+[03.24.23|14:00:10] Eval epoch: 4
+[03.24.23|14:00:31] 	mean_loss: 1.7176539500554402
+[03.24.23|14:00:31] 	Top1: 20.00%
+[03.24.23|14:00:31] 	Top5: 100.00%
+[03.24.23|14:00:31] Done.
+[03.24.23|14:00:31] Training epoch: 5
+[03.24.23|14:00:52] 	mean_loss: 1.6265327334403992
+[03.24.23|14:00:52] Time consumption:
+[03.24.23|14:00:52] Done.
+[03.24.23|14:00:52] Training epoch: 6
+[03.24.23|14:01:13] 	mean_loss: 2.1689107418060303
+[03.24.23|14:01:13] Time consumption:
+[03.24.23|14:01:13] Done.
+[03.24.23|14:01:13] Training epoch: 7
+[03.24.23|14:01:34] 	mean_loss: 1.6065587997436523
+[03.24.23|14:01:34] Time consumption:
+[03.24.23|14:01:34] Done.
+[03.24.23|14:01:34] Training epoch: 8
+[03.24.23|14:01:55] 	mean_loss: 1.8651143312454224
+[03.24.23|14:01:55] Time consumption:
+[03.24.23|14:01:55] Done.
+[03.24.23|14:01:55] Training epoch: 9
+[03.24.23|14:02:16] 	mean_loss: 1.5894123911857605
+[03.24.23|14:02:16] Time consumption:
+[03.24.23|14:02:16] Done.
+[03.24.23|14:02:16] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|14:02:16] Eval epoch: 9
+[03.24.23|14:02:37] 	mean_loss: 1.9658958514531453
+[03.24.23|14:02:37] 	Top1: 20.00%
+[03.24.23|14:02:37] 	Top5: 100.00%
+[03.24.23|14:02:37] Done.
+[03.24.23|14:02:37] Training epoch: 10
+[03.24.23|14:02:58] 	mean_loss: 1.1022962629795074
+[03.24.23|14:02:58] Time consumption:
+[03.24.23|14:02:58] Done.
+[03.24.23|14:02:58] Training epoch: 11
+[03.24.23|14:03:19] 	mean_loss: 1.7384182214736938
+[03.24.23|14:03:19] Time consumption:
+[03.24.23|14:03:19] Done.
+[03.24.23|14:03:19] Training epoch: 12
+[03.24.23|14:03:40] 	mean_loss: 1.4758636951446533
+[03.24.23|14:03:40] Time consumption:
+[03.24.23|14:03:40] Done.
+[03.24.23|14:03:40] Training epoch: 13
+[03.24.23|14:04:02] 	mean_loss: 1.1002522706985474
+[03.24.23|14:04:02] Time consumption:
+[03.24.23|14:04:02] Done.
+[03.24.23|14:04:02] Training epoch: 14
+[03.24.23|14:04:23] 	mean_loss: 1.5595566034317017
+[03.24.23|14:04:23] Time consumption:
+[03.24.23|14:04:23] Done.
+[03.24.23|14:04:23] Eval epoch: 14
+[03.24.23|14:04:44] 	mean_loss: 2.0262258847554526
+[03.24.23|14:04:44] 	Top1: 20.00%
+[03.24.23|14:04:44] 	Top5: 100.00%
+[03.24.23|14:04:44] Done.
+[03.24.23|14:04:44] Training epoch: 15
+[03.24.23|14:05:06] 	mean_loss: 1.72865891456604
+[03.24.23|14:05:06] Time consumption:
+[03.24.23|14:05:06] Done.
+[03.24.23|14:05:06] Training epoch: 16
+[03.24.23|14:05:28] 	mean_loss: 1.613962709903717
+[03.24.23|14:05:28] Time consumption:
+[03.24.23|14:05:28] Done.
+[03.24.23|14:05:28] Training epoch: 17
+[03.24.23|14:05:50] 	mean_loss: 1.0681405663490295
+[03.24.23|14:05:50] Time consumption:
+[03.24.23|14:05:50] Done.
+[03.24.23|14:05:50] Training epoch: 18
+[03.24.23|14:06:11] 	mean_loss: 1.0233437418937683
+[03.24.23|14:06:11] Time consumption:
+[03.24.23|14:06:11] Done.
+[03.24.23|14:06:11] Training epoch: 19
+[03.24.23|14:06:32] 	mean_loss: 1.1226400136947632
+[03.24.23|14:06:32] Time consumption:
+[03.24.23|14:06:32] Done.
+[03.24.23|14:06:32] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|14:06:32] Eval epoch: 19
+[03.24.23|14:06:53] 	mean_loss: 1.7090704838434856
+[03.24.23|14:06:53] 	Top1: 20.00%
+[03.24.23|14:06:53] 	Top5: 100.00%
+[03.24.23|14:06:53] Done.
+[03.24.23|14:06:53] Training epoch: 20
+[03.24.23|14:07:14] 	mean_loss: 1.4873396158218384
+[03.24.23|14:07:14] Time consumption:
+[03.24.23|14:07:14] Done.
+[03.24.23|14:07:14] Training epoch: 21
+[03.24.23|14:07:35] 	mean_loss: 1.142034113407135
+[03.24.23|14:07:35] Time consumption:
+[03.24.23|14:07:35] Done.
+[03.24.23|14:07:35] Training epoch: 22
+[03.24.23|14:07:57] 	mean_loss: 1.0826548337936401
+[03.24.23|14:07:57] Time consumption:
+[03.24.23|14:07:57] Done.
+[03.24.23|14:07:57] Training epoch: 23
+[03.24.23|14:08:19] 	mean_loss: 1.0789917707443237
+[03.24.23|14:08:19] Time consumption:
+[03.24.23|14:08:19] Done.
+[03.24.23|14:08:19] Training epoch: 24
+[03.24.23|14:08:41] 	mean_loss: 1.4852439761161804
+[03.24.23|14:08:41] Time consumption:
+[03.24.23|14:08:41] Done.
+[03.24.23|14:08:41] Eval epoch: 24
+[03.24.23|14:09:03] 	mean_loss: 0.956502636273702
+[03.24.23|14:09:03] 	Top1: 40.00%
+[03.24.23|14:09:03] 	Top5: 100.00%
+[03.24.23|14:09:03] Done.
+[03.24.23|14:09:03] Training epoch: 25
+[03.24.23|14:09:24] 	mean_loss: 1.423758089542389
+[03.24.23|14:09:24] Time consumption:
+[03.24.23|14:09:24] Done.
+[03.24.23|14:09:24] Training epoch: 26
+[03.24.23|14:09:46] 	mean_loss: 1.0466050803661346
+[03.24.23|14:09:46] Time consumption:
+[03.24.23|14:09:46] Done.
+[03.24.23|14:09:46] Training epoch: 27
+[03.24.23|14:10:08] 	mean_loss: 1.404689073562622
+[03.24.23|14:10:08] Time consumption:
+[03.24.23|14:10:08] Done.
+[03.24.23|14:10:08] Training epoch: 28
+[03.24.23|14:10:30] 	mean_loss: 1.0661367177963257
+[03.24.23|14:10:30] Time consumption:
+[03.24.23|14:10:30] Done.
+[03.24.23|14:10:30] Training epoch: 29
+[03.24.23|14:10:53] 	mean_loss: 0.9648351967334747
+[03.24.23|14:10:53] Time consumption:
+[03.24.23|14:10:53] Done.
+[03.24.23|14:10:53] The model has been saved as .\output\/epoch30_model.pt.
+[03.24.23|14:10:53] Eval epoch: 29
+[03.24.23|14:11:15] 	mean_loss: 0.8087074669698874
+[03.24.23|14:11:15] 	Top1: 60.00%
+[03.24.23|14:11:15] 	Top5: 100.00%
+[03.24.23|14:11:15] Done.
+[03.24.23|14:11:15] Training epoch: 30
+[03.24.23|14:11:38] 	mean_loss: 1.3428735733032227
+[03.24.23|14:11:38] Time consumption:
+[03.24.23|14:11:38] Done.
+[03.24.23|14:11:38] Training epoch: 31
+[03.24.23|14:11:59] 	mean_loss: 1.0477553606033325
+[03.24.23|14:11:59] Time consumption:
+[03.24.23|14:11:59] Done.
+[03.24.23|14:11:59] Training epoch: 32
+[03.24.23|14:12:20] 	mean_loss: 1.634207010269165
+[03.24.23|14:12:20] Time consumption:
+[03.24.23|14:12:20] Done.
+[03.24.23|14:12:20] Training epoch: 33
+[03.24.23|14:12:41] 	mean_loss: 1.4335482120513916
+[03.24.23|14:12:41] Time consumption:
+[03.24.23|14:12:41] Done.
+[03.24.23|14:12:41] Training epoch: 34
+[03.24.23|14:13:02] 	mean_loss: 1.4270574450492859
+[03.24.23|14:13:02] Time consumption:
+[03.24.23|14:13:02] Done.
+[03.24.23|14:13:02] Eval epoch: 34
+[03.24.23|14:13:23] 	mean_loss: 0.7904411481382946
+[03.24.23|14:13:23] 	Top1: 40.00%
+[03.24.23|14:13:23] 	Top5: 100.00%
+[03.24.23|14:13:23] Done.
+[03.24.23|14:13:23] Training epoch: 35
+[03.24.23|14:13:44] 	mean_loss: 1.3253159523010254
+[03.24.23|14:13:44] Time consumption:
+[03.24.23|14:13:44] Done.
+[03.24.23|14:13:44] Training epoch: 36
+[03.24.23|14:14:05] 	mean_loss: 1.0322397649288177
+[03.24.23|14:14:05] Time consumption:
+[03.24.23|14:14:05] Done.
+[03.24.23|14:14:05] Training epoch: 37
+[03.24.23|14:14:26] 	mean_loss: 1.1397200524806976
+[03.24.23|14:14:26] Time consumption:
+[03.24.23|14:14:26] Done.
+[03.24.23|14:14:26] Training epoch: 38
+[03.24.23|14:14:47] 	mean_loss: 1.5587770342826843
+[03.24.23|14:14:47] Time consumption:
+[03.24.23|14:14:47] Done.
+[03.24.23|14:14:47] Training epoch: 39
+[03.24.23|14:15:07] 	mean_loss: 1.3836004734039307
+[03.24.23|14:15:07] Time consumption:
+[03.24.23|14:15:07] Done.
+[03.24.23|14:15:07] The model has been saved as .\output\/epoch40_model.pt.
+[03.24.23|14:15:07] Eval epoch: 39
+[03.24.23|14:15:28] 	mean_loss: 0.7773893427414199
+[03.24.23|14:15:28] 	Top1: 40.00%
+[03.24.23|14:15:28] 	Top5: 100.00%
+[03.24.23|14:15:28] Done.
+[03.24.23|14:15:28] Training epoch: 40
+[03.24.23|14:15:49] 	mean_loss: 1.519524335861206
+[03.24.23|14:15:49] Time consumption:
+[03.24.23|14:15:49] Done.
+[03.24.23|14:15:49] Training epoch: 41
+[03.24.23|14:16:10] 	mean_loss: 0.9267703890800476
+[03.24.23|14:16:10] Time consumption:
+[03.24.23|14:16:10] Done.
+[03.24.23|14:16:10] Training epoch: 42
+[03.24.23|14:16:31] 	mean_loss: 1.098096638917923
+[03.24.23|14:16:31] Time consumption:
+[03.24.23|14:16:31] Done.
+[03.24.23|14:16:31] Training epoch: 43
+[03.24.23|14:16:52] 	mean_loss: 1.4256744980812073
+[03.24.23|14:16:52] Time consumption:
+[03.24.23|14:16:52] Done.
+[03.24.23|14:16:52] Training epoch: 44
+[03.24.23|14:17:13] 	mean_loss: 0.9461369812488556
+[03.24.23|14:17:13] Time consumption:
+[03.24.23|14:17:13] Done.
+[03.24.23|14:17:13] Eval epoch: 44
+[03.24.23|14:17:34] 	mean_loss: 0.7856546135929724
+[03.24.23|14:17:34] 	Top1: 40.00%
+[03.24.23|14:17:34] 	Top5: 100.00%
+[03.24.23|14:17:34] Done.
+[03.24.23|14:17:34] Training epoch: 45
+[03.24.23|14:17:55] 	mean_loss: 1.2915692925453186
+[03.24.23|14:17:55] Time consumption:
+[03.24.23|14:17:55] Done.
+[03.24.23|14:17:55] Training epoch: 46
+[03.24.23|14:18:15] 	mean_loss: 1.0714352428913116
+[03.24.23|14:18:15] Time consumption:
+[03.24.23|14:18:15] Done.
+[03.24.23|14:18:15] Training epoch: 47
+[03.24.23|14:18:36] 	mean_loss: 1.4013303518295288
+[03.24.23|14:18:36] Time consumption:
+[03.24.23|14:18:36] Done.
+[03.24.23|14:18:36] Training epoch: 48
+[03.24.23|14:18:57] 	mean_loss: 1.557637333869934
+[03.24.23|14:18:57] Time consumption:
+[03.24.23|14:18:57] Done.
+[03.24.23|14:18:57] Training epoch: 49
+[03.24.23|14:19:18] 	mean_loss: 1.0547723770141602
+[03.24.23|14:19:18] Time consumption:
+[03.24.23|14:19:18] Done.
+[03.24.23|14:19:18] The model has been saved as .\output\/epoch50_model.pt.
+[03.24.23|14:19:18] Eval epoch: 49
+[03.24.23|14:19:39] 	mean_loss: 0.7787142746771375
+[03.24.23|14:19:39] 	Top1: 40.00%
+[03.24.23|14:19:39] 	Top5: 100.00%
+[03.24.23|14:19:39] Done.
+[03.24.23|14:19:39] Training epoch: 50
+[03.24.23|14:19:59] 	Iter 100 Done. | loss: 0.9193 | lr: 0.000000
+[03.24.23|14:20:00] 	mean_loss: 1.528342992067337
+[03.24.23|14:20:00] Time consumption:
+[03.24.23|14:20:00] Done.
+[03.24.23|14:20:00] Training epoch: 51
+[03.24.23|14:20:21] 	mean_loss: 1.0480214655399323
+[03.24.23|14:20:21] Time consumption:
+[03.24.23|14:20:21] Done.
+[03.24.23|14:20:21] Training epoch: 52
+[03.24.23|14:20:42] 	mean_loss: 1.3618136048316956
+[03.24.23|14:20:42] Time consumption:
+[03.24.23|14:20:42] Done.
+[03.24.23|14:20:42] Training epoch: 53
+[03.24.23|14:21:03] 	mean_loss: 1.0888826251029968
+[03.24.23|14:21:03] Time consumption:
+[03.24.23|14:21:03] Done.
+[03.24.23|14:21:03] Training epoch: 54
+[03.24.23|14:21:24] 	mean_loss: 1.0835000276565552
+[03.24.23|14:21:24] Time consumption:
+[03.24.23|14:21:24] Done.
+[03.24.23|14:21:24] Eval epoch: 54
+[03.24.23|14:21:45] 	mean_loss: 0.7926043559952328
+[03.24.23|14:21:45] 	Top1: 40.00%
+[03.24.23|14:21:45] 	Top5: 100.00%
+[03.24.23|14:21:45] Done.
+[03.24.23|14:21:45] Training epoch: 55
+[03.24.23|14:22:06] 	mean_loss: 1.0710372626781464
+[03.24.23|14:22:06] Time consumption:
+[03.24.23|14:22:06] Done.
+[03.24.23|14:22:06] Training epoch: 56
+[03.24.23|14:22:28] 	mean_loss: 1.427636206150055
+[03.24.23|14:22:28] Time consumption:
+[03.24.23|14:22:28] Done.
+[03.24.23|14:22:28] Training epoch: 57
+[03.24.23|14:22:49] 	mean_loss: 1.3696911334991455
+[03.24.23|14:22:49] Time consumption:
+[03.24.23|14:22:49] Done.
+[03.24.23|14:22:49] Training epoch: 58
+[03.24.23|14:23:11] 	mean_loss: 1.4739510416984558
+[03.24.23|14:23:11] Time consumption:
+[03.24.23|14:23:11] Done.
+[03.24.23|14:23:11] Training epoch: 59
+[03.24.23|14:23:33] 	mean_loss: 1.5233262777328491
+[03.24.23|14:23:33] Time consumption:
+[03.24.23|14:23:33] Done.
+[03.24.23|14:23:33] The model has been saved as .\output\/epoch60_model.pt.
+[03.24.23|14:23:33] Eval epoch: 59
+[03.24.23|14:23:55] 	mean_loss: 0.8401782199604592
+[03.24.23|14:23:55] 	Top1: 80.00%
+[03.24.23|14:23:55] 	Top5: 100.00%
+[03.24.23|14:23:55] Done.
+[03.24.23|14:23:55] Training epoch: 60
+[03.24.23|14:24:46] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|14:24:46] Training epoch: 0
+[03.24.23|14:25:06] 	Iter 0 Done. | loss: 1.7408 | lr: 0.010000
+[03.24.23|14:25:08] 	mean_loss: 2.502161979675293
+[03.24.23|14:25:08] Time consumption:
+[03.24.23|14:25:08] Done.
+[03.24.23|14:25:08] Training epoch: 1
+[03.24.23|14:25:29] 	mean_loss: 2.605970621109009
+[03.24.23|14:25:29] Time consumption:
+[03.24.23|14:25:29] Done.
+[03.24.23|14:25:29] Training epoch: 2
+[03.24.23|14:25:50] 	mean_loss: 2.7204099893569946
+[03.24.23|14:25:50] Time consumption:
+[03.24.23|14:25:50] Done.
+[03.24.23|14:25:50] Training epoch: 3
+[03.24.23|14:26:12] 	mean_loss: 1.8844985961914062
+[03.24.23|14:26:12] Time consumption:
+[03.24.23|14:26:12] Done.
+[03.24.23|14:26:12] Training epoch: 4
+[03.24.23|14:26:33] 	mean_loss: 3.1259029507637024
+[03.24.23|14:26:33] Time consumption:
+[03.24.23|14:26:33] Done.
+[03.24.23|14:26:33] Eval epoch: 4
+[03.24.23|14:26:54] 	mean_loss: 1.892718235651652
+[03.24.23|14:26:54] 	Top1: 20.00%
+[03.24.23|14:26:54] 	Top5: 100.00%
+[03.24.23|14:26:54] Done.
+[03.24.23|14:26:54] Training epoch: 5
+[03.24.23|14:27:15] 	mean_loss: 2.413604259490967
+[03.24.23|14:27:15] Time consumption:
+[03.24.23|14:27:15] Done.
+[03.24.23|14:27:15] Training epoch: 6
+[03.24.23|14:27:37] 	mean_loss: 1.7057372331619263
+[03.24.23|14:27:37] Time consumption:
+[03.24.23|14:27:37] Done.
+[03.24.23|14:27:37] Training epoch: 7
+[03.24.23|14:28:11] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|14:28:11] Training epoch: 0
+[03.24.23|14:29:01] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|14:29:01] Training epoch: 0
+[03.24.23|14:29:20] 	Iter 0 Done. | loss: 1.7119 | lr: 0.010000
+[03.24.23|14:29:22] 	mean_loss: 2.499796986579895
+[03.24.23|14:29:22] Time consumption:
+[03.24.23|14:29:22] Done.
+[03.24.23|14:29:22] Training epoch: 1
+[03.24.23|14:29:43] 	mean_loss: 2.5863572359085083
+[03.24.23|14:29:43] Time consumption:
+[03.24.23|14:29:43] Done.
+[03.24.23|14:29:43] Training epoch: 2
+[03.24.23|14:30:05] 	mean_loss: 2.5595695972442627
+[03.24.23|14:30:05] Time consumption:
+[03.24.23|14:30:05] Done.
+[03.24.23|14:30:05] Training epoch: 3
+[03.24.23|14:30:26] 	mean_loss: 2.6358326077461243
+[03.24.23|14:30:26] Time consumption:
+[03.24.23|14:30:26] Done.
+[03.24.23|14:30:26] Training epoch: 4
+[03.24.23|14:30:47] 	mean_loss: 2.091150224208832
+[03.24.23|14:30:47] Time consumption:
+[03.24.23|14:30:47] Done.
+[03.24.23|14:30:47] Eval epoch: 4
+[03.24.23|14:31:08] 	mean_loss: 1.7649179299672444
+[03.24.23|14:31:08] 	Top1: 20.00%
+[03.24.23|14:31:08] 	Top5: 100.00%
+[03.24.23|14:31:08] Done.
+[03.24.23|14:31:08] Training epoch: 5
+[03.24.23|14:31:29] 	mean_loss: 2.0890347957611084
+[03.24.23|14:31:29] Time consumption:
+[03.24.23|14:31:29] Done.
+[03.24.23|14:31:29] Training epoch: 6
+[03.24.23|14:31:51] 	mean_loss: 1.8322063088417053
+[03.24.23|14:31:51] Time consumption:
+[03.24.23|14:31:51] Done.
+[03.24.23|14:31:51] Training epoch: 7
+[03.24.23|14:32:12] 	mean_loss: 1.3921340703964233
+[03.24.23|14:32:12] Time consumption:
+[03.24.23|14:32:12] Done.
+[03.24.23|14:32:12] Training epoch: 8
+[03.24.23|14:32:33] 	mean_loss: 1.8789021372795105
+[03.24.23|14:32:33] Time consumption:
+[03.24.23|14:32:33] Done.
+[03.24.23|14:32:33] Training epoch: 9
+[03.24.23|14:32:54] 	mean_loss: 1.3388893008232117
+[03.24.23|14:32:54] Time consumption:
+[03.24.23|14:32:54] Done.
+[03.24.23|14:32:54] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|14:32:54] Eval epoch: 9
+[03.24.23|14:33:16] 	mean_loss: 2.123691221078237
+[03.24.23|14:33:16] 	Top1: 40.00%
+[03.24.23|14:33:16] 	Top5: 100.00%
+[03.24.23|14:33:16] Done.
+[03.24.23|14:33:16] Training epoch: 10
+[03.24.23|14:33:37] 	mean_loss: 0.8581914901733398
+[03.24.23|14:33:37] Time consumption:
+[03.24.23|14:33:37] Done.
+[03.24.23|14:33:37] Training epoch: 11
+[03.24.23|14:33:58] 	mean_loss: 1.0708283185958862
+[03.24.23|14:33:58] Time consumption:
+[03.24.23|14:33:58] Done.
+[03.24.23|14:33:58] Training epoch: 12
+[03.24.23|14:34:19] 	mean_loss: 2.048306941986084
+[03.24.23|14:34:19] Time consumption:
+[03.24.23|14:34:19] Done.
+[03.24.23|14:34:19] Training epoch: 13
+[03.24.23|14:34:40] 	mean_loss: 1.9044545888900757
+[03.24.23|14:34:40] Time consumption:
+[03.24.23|14:34:40] Done.
+[03.24.23|14:34:40] Training epoch: 14
+[03.24.23|14:35:02] 	mean_loss: 1.0324376821517944
+[03.24.23|14:35:02] Time consumption:
+[03.24.23|14:35:02] Done.
+[03.24.23|14:35:02] Eval epoch: 14
+[03.24.23|14:35:23] 	mean_loss: 2.1614874998728433
+[03.24.23|14:35:23] 	Top1: 40.00%
+[03.24.23|14:35:23] 	Top5: 100.00%
+[03.24.23|14:35:23] Done.
+[03.24.23|14:35:23] Training epoch: 15
+[03.24.23|14:35:45] 	mean_loss: 1.4774363040924072
+[03.24.23|14:35:45] Time consumption:
+[03.24.23|14:35:45] Done.
+[03.24.23|14:35:45] Training epoch: 16
+[03.24.23|14:36:06] 	mean_loss: 2.485523223876953
+[03.24.23|14:36:06] Time consumption:
+[03.24.23|14:36:06] Done.
+[03.24.23|14:36:06] Training epoch: 17
+[03.24.23|14:36:27] 	mean_loss: 0.9859124720096588
+[03.24.23|14:36:27] Time consumption:
+[03.24.23|14:36:27] Done.
+[03.24.23|14:36:27] Training epoch: 18
+[03.24.23|14:36:48] 	mean_loss: 0.9633809626102448
+[03.24.23|14:36:48] Time consumption:
+[03.24.23|14:36:48] Done.
+[03.24.23|14:36:48] Training epoch: 19
+[03.24.23|14:37:09] 	mean_loss: 1.7736400961875916
+[03.24.23|14:37:09] Time consumption:
+[03.24.23|14:37:09] Done.
+[03.24.23|14:37:10] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|14:37:10] Eval epoch: 19
+[03.24.23|14:37:31] 	mean_loss: 1.8280606269836426
+[03.24.23|14:37:31] 	Top1: 40.00%
+[03.24.23|14:37:31] 	Top5: 100.00%
+[03.24.23|14:37:31] Done.
+[03.24.23|14:37:31] Training epoch: 20
+[03.24.23|14:37:52] 	mean_loss: 1.3304385840892792
+[03.24.23|14:37:52] Time consumption:
+[03.24.23|14:37:52] Done.
+[03.24.23|14:37:52] Training epoch: 21
+[03.24.23|14:38:13] 	mean_loss: 1.0038325786590576
+[03.24.23|14:38:13] Time consumption:
+[03.24.23|14:38:13] Done.
+[03.24.23|14:38:13] Training epoch: 22
+[03.24.23|14:38:34] 	mean_loss: 0.9378212690353394
+[03.24.23|14:38:34] Time consumption:
+[03.24.23|14:38:34] Done.
+[03.24.23|14:38:34] Training epoch: 23
+[03.24.23|14:38:56] 	mean_loss: 1.7107998132705688
+[03.24.23|14:38:56] Time consumption:
+[03.24.23|14:38:56] Done.
+[03.24.23|14:38:56] Training epoch: 24
+[03.24.23|14:39:17] 	mean_loss: 1.2078720331192017
+[03.24.23|14:39:17] Time consumption:
+[03.24.23|14:39:17] Done.
+[03.24.23|14:39:17] Eval epoch: 24
+[03.24.23|14:39:38] 	mean_loss: 1.7901886304219563
+[03.24.23|14:39:38] 	Top1: 40.00%
+[03.24.23|14:39:38] 	Top5: 100.00%
+[03.24.23|14:39:38] Done.
+[03.24.23|14:39:38] Training epoch: 25
+[03.24.23|14:39:59] 	mean_loss: 1.0223587155342102
+[03.24.23|14:39:59] Time consumption:
+[03.24.23|14:39:59] Done.
+[03.24.23|14:39:59] Training epoch: 26
+[03.24.23|14:40:20] 	mean_loss: 1.5441611111164093
+[03.24.23|14:40:20] Time consumption:
+[03.24.23|14:40:20] Done.
+[03.24.23|14:40:20] Training epoch: 27
+[03.24.23|14:40:42] 	mean_loss: 0.9265408515930176
+[03.24.23|14:40:42] Time consumption:
+[03.24.23|14:40:42] Done.
+[03.24.23|14:40:42] Training epoch: 28
+[03.24.23|14:41:04] 	mean_loss: 1.9087532758712769
+[03.24.23|14:41:04] Time consumption:
+[03.24.23|14:41:04] Done.
+[03.24.23|14:41:04] Training epoch: 29
+[03.24.23|14:41:26] 	mean_loss: 0.9246438443660736
+[03.24.23|14:41:26] Time consumption:
+[03.24.23|14:41:26] Done.
+[03.24.23|14:41:26] The model has been saved as .\output\/epoch30_model.pt.
+[03.24.23|14:41:26] Eval epoch: 29
+[03.24.23|14:44:41] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|14:44:41] Training epoch: 0
+[03.24.23|14:46:33] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|14:46:33] Training epoch: 0
+[03.24.23|14:46:52] 	Iter 0 Done. | loss: 1.5808 | lr: 0.010000
+[03.24.23|14:46:54] 	mean_loss: 2.4036753177642822
+[03.24.23|14:46:54] Time consumption:
+[03.24.23|14:46:54] Done.
+[03.24.23|14:46:54] Training epoch: 1
+[03.24.23|14:47:15] 	mean_loss: 2.576354742050171
+[03.24.23|14:47:15] Time consumption:
+[03.24.23|14:47:15] Done.
+[03.24.23|14:47:15] Training epoch: 2
+[03.24.23|14:47:37] 	mean_loss: 2.319405972957611
+[03.24.23|14:47:37] Time consumption:
+[03.24.23|14:47:37] Done.
+[03.24.23|14:47:37] Training epoch: 3
+[03.24.23|14:47:58] 	mean_loss: 2.241323471069336
+[03.24.23|14:47:58] Time consumption:
+[03.24.23|14:47:58] Done.
+[03.24.23|14:47:58] Training epoch: 4
+[03.24.23|14:48:19] 	mean_loss: 2.1135276556015015
+[03.24.23|14:48:19] Time consumption:
+[03.24.23|14:48:19] Done.
+[03.24.23|14:48:19] Eval epoch: 4
+[03.24.23|14:48:40] 	mean_loss: 1.8477378686269124
+[03.24.23|14:48:40] 	Top1: 20.00%
+[03.24.23|14:48:40] 	Top5: 100.00%
+[03.24.23|14:48:40] Done.
+[03.24.23|14:48:40] Training epoch: 5
+[03.24.23|14:49:01] 	mean_loss: 2.3090891242027283
+[03.24.23|14:49:01] Time consumption:
+[03.24.23|14:49:01] Done.
+[03.24.23|14:49:01] Training epoch: 6
+[03.24.23|14:49:22] 	mean_loss: 2.4617730379104614
+[03.24.23|14:49:22] Time consumption:
+[03.24.23|14:49:22] Done.
+[03.24.23|14:49:22] Training epoch: 7
+[03.24.23|14:49:44] 	mean_loss: 1.7000872492790222
+[03.24.23|14:49:44] Time consumption:
+[03.24.23|14:49:44] Done.
+[03.24.23|14:49:44] Training epoch: 8
+[03.24.23|14:50:05] 	mean_loss: 2.09682160615921
+[03.24.23|14:50:05] Time consumption:
+[03.24.23|14:50:05] Done.
+[03.24.23|14:50:05] Training epoch: 9
+[03.24.23|14:50:26] 	mean_loss: 1.7866350412368774
+[03.24.23|14:50:26] Time consumption:
+[03.24.23|14:50:26] Done.
+[03.24.23|14:50:26] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|14:50:26] Eval epoch: 9
+[03.24.23|14:50:47] 	mean_loss: 1.4927990833918254
+[03.24.23|14:50:47] 	Top1: 40.00%
+[03.24.23|14:50:47] 	Top5: 100.00%
+[03.24.23|14:50:47] Done.
+[03.24.23|14:50:47] Training epoch: 10
+[03.24.23|14:51:08] 	mean_loss: 1.6083093881607056
+[03.24.23|14:51:08] Time consumption:
+[03.24.23|14:51:08] Done.
+[03.24.23|14:51:08] Training epoch: 11
+[03.24.23|14:51:29] 	mean_loss: 1.970946192741394
+[03.24.23|14:51:29] Time consumption:
+[03.24.23|14:51:29] Done.
+[03.24.23|14:51:29] Training epoch: 12
+[03.24.23|14:51:50] 	mean_loss: 1.5104895234107971
+[03.24.23|14:51:50] Time consumption:
+[03.24.23|14:51:50] Done.
+[03.24.23|14:51:50] Training epoch: 13
+[03.24.23|14:52:11] 	mean_loss: 1.5071973204612732
+[03.24.23|14:52:11] Time consumption:
+[03.24.23|14:52:11] Done.
+[03.24.23|14:52:11] Training epoch: 14
+[03.24.23|14:52:33] 	mean_loss: 1.2699666023254395
+[03.24.23|14:52:33] Time consumption:
+[03.24.23|14:52:33] Done.
+[03.24.23|14:52:33] Eval epoch: 14
+[03.24.23|14:52:54] 	mean_loss: 1.5818792978922527
+[03.24.23|14:52:54] 	Top1: 20.00%
+[03.24.23|14:52:54] 	Top5: 100.00%
+[03.24.23|14:52:54] Done.
+[03.24.23|14:52:54] Training epoch: 15
+[03.24.23|14:53:15] 	mean_loss: 1.681279718875885
+[03.24.23|14:53:15] Time consumption:
+[03.24.23|14:53:15] Done.
+[03.24.23|14:53:15] Training epoch: 16
+[03.24.23|14:53:36] 	mean_loss: 1.4245047569274902
+[03.24.23|14:53:36] Time consumption:
+[03.24.23|14:53:36] Done.
+[03.24.23|14:53:36] Training epoch: 17
+[03.24.23|14:53:57] 	mean_loss: 1.0796295404434204
+[03.24.23|14:53:57] Time consumption:
+[03.24.23|14:53:57] Done.
+[03.24.23|14:53:57] Training epoch: 18
+[03.24.23|14:54:18] 	mean_loss: 1.9237713813781738
+[03.24.23|14:54:18] Time consumption:
+[03.24.23|14:54:18] Done.
+[03.24.23|14:54:18] Training epoch: 19
+[03.24.23|14:54:39] 	mean_loss: 0.9803873300552368
+[03.24.23|14:54:39] Time consumption:
+[03.24.23|14:54:39] Done.
+[03.24.23|14:54:39] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|14:54:39] Eval epoch: 19
+[03.24.23|14:55:01] 	mean_loss: 1.6419123808542888
+[03.24.23|14:55:01] 	Top1: 20.00%
+[03.24.23|14:55:01] 	Top5: 100.00%
+[03.24.23|14:55:01] Done.
+[03.24.23|14:55:01] Training epoch: 20
+[03.24.23|14:55:23] 	mean_loss: 1.6713007688522339
+[03.24.23|14:55:23] Time consumption:
+[03.24.23|14:55:23] Done.
+[03.24.23|14:55:23] Training epoch: 21
+[03.24.23|14:55:45] 	mean_loss: 1.7665108442306519
+[03.24.23|14:55:45] Time consumption:
+[03.24.23|14:55:45] Done.
+[03.24.23|14:55:45] Training epoch: 22
+[03.24.23|14:56:06] 	mean_loss: 1.3927865326404572
+[03.24.23|14:56:06] Time consumption:
+[03.24.23|14:56:06] Done.
+[03.24.23|14:56:06] Training epoch: 23
+[03.24.23|14:56:28] 	mean_loss: 1.165254682302475
+[03.24.23|14:56:28] Time consumption:
+[03.24.23|14:56:28] Done.
+[03.24.23|14:56:28] Training epoch: 24
+[03.24.23|14:56:55] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 100, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [10, 20, 30, 40, 50, 60, 70], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|14:56:55] Training epoch: 0
+[03.24.23|14:57:15] 	Iter 0 Done. | loss: 1.6285 | lr: 0.010000
+[03.24.23|14:57:16] 	mean_loss: 2.3831570148468018
+[03.24.23|14:57:16] Time consumption:
+[03.24.23|14:57:16] Done.
+[03.24.23|14:57:16] Training epoch: 1
+[03.24.23|14:57:37] 	mean_loss: 2.535763740539551
+[03.24.23|14:57:37] Time consumption:
+[03.24.23|14:57:37] Done.
+[03.24.23|14:57:37] Training epoch: 2
+[03.24.23|14:57:58] 	mean_loss: 2.2317493557929993
+[03.24.23|14:57:58] Time consumption:
+[03.24.23|14:57:58] Done.
+[03.24.23|14:57:58] Training epoch: 3
+[03.24.23|14:58:19] 	mean_loss: 2.3395482897758484
+[03.24.23|14:58:19] Time consumption:
+[03.24.23|14:58:19] Done.
+[03.24.23|14:58:19] Training epoch: 4
+[03.24.23|14:58:40] 	mean_loss: 2.5746654272079468
+[03.24.23|14:58:40] Time consumption:
+[03.24.23|14:58:40] Done.
+[03.24.23|14:58:40] Eval epoch: 4
+[03.24.23|14:59:01] 	mean_loss: 2.023914893468221
+[03.24.23|14:59:01] 	Top1: 20.00%
+[03.24.23|14:59:01] 	Top5: 100.00%
+[03.24.23|14:59:01] Done.
+[03.24.23|14:59:01] Training epoch: 5
+[03.24.23|14:59:22] 	mean_loss: 2.4753891229629517
+[03.24.23|14:59:22] Time consumption:
+[03.24.23|14:59:22] Done.
+[03.24.23|14:59:22] Training epoch: 6
+[03.24.23|14:59:43] 	mean_loss: 1.76601642370224
+[03.24.23|14:59:43] Time consumption:
+[03.24.23|14:59:43] Done.
+[03.24.23|14:59:43] Training epoch: 7
+[03.24.23|15:00:03] 	mean_loss: 2.7203500270843506
+[03.24.23|15:00:03] Time consumption:
+[03.24.23|15:00:03] Done.
+[03.24.23|15:00:03] Training epoch: 8
+[03.24.23|15:00:24] 	mean_loss: 1.4345596432685852
+[03.24.23|15:00:24] Time consumption:
+[03.24.23|15:00:24] Done.
+[03.24.23|15:00:24] Training epoch: 9
+[03.24.23|15:00:45] 	mean_loss: 2.33565616607666
+[03.24.23|15:00:45] Time consumption:
+[03.24.23|15:00:45] Done.
+[03.24.23|15:00:45] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|15:00:45] Eval epoch: 9
+[03.24.23|15:01:06] 	mean_loss: 4.800156116485596
+[03.24.23|15:01:06] 	Top1: 20.00%
+[03.24.23|15:01:06] 	Top5: 100.00%
+[03.24.23|15:01:06] Done.
+[03.24.23|15:01:06] Training epoch: 10
+[03.24.23|15:01:27] 	mean_loss: 1.898101568222046
+[03.24.23|15:01:27] Time consumption:
+[03.24.23|15:01:27] Done.
+[03.24.23|15:01:27] Training epoch: 11
+[03.24.23|15:01:48] 	mean_loss: 2.0215649008750916
+[03.24.23|15:01:48] Time consumption:
+[03.24.23|15:01:48] Done.
+[03.24.23|15:01:48] Training epoch: 12
+[03.24.23|15:02:09] 	mean_loss: 1.813028335571289
+[03.24.23|15:02:09] Time consumption:
+[03.24.23|15:02:09] Done.
+[03.24.23|15:02:09] Training epoch: 13
+[03.24.23|15:02:31] 	mean_loss: 1.3043434023857117
+[03.24.23|15:02:31] Time consumption:
+[03.24.23|15:02:31] Done.
+[03.24.23|15:02:31] Training epoch: 14
+[03.24.23|15:02:51] 	mean_loss: 1.2755892872810364
+[03.24.23|15:02:51] Time consumption:
+[03.24.23|15:02:51] Done.
+[03.24.23|15:02:51] Eval epoch: 14
+[03.24.23|15:03:12] 	mean_loss: 1.710023045539856
+[03.24.23|15:03:12] 	Top1: 0.00%
+[03.24.23|15:03:12] 	Top5: 100.00%
+[03.24.23|15:03:12] Done.
+[03.24.23|15:03:12] Training epoch: 15
+[03.24.23|15:03:33] 	mean_loss: 1.2670310139656067
+[03.24.23|15:03:33] Time consumption:
+[03.24.23|15:03:33] Done.
+[03.24.23|15:03:33] Training epoch: 16
+[03.24.23|15:03:54] 	mean_loss: 1.2140024304389954
+[03.24.23|15:03:54] Time consumption:
+[03.24.23|15:03:54] Done.
+[03.24.23|15:03:54] Training epoch: 17
+[03.24.23|15:04:15] 	mean_loss: 2.081760287284851
+[03.24.23|15:04:15] Time consumption:
+[03.24.23|15:04:15] Done.
+[03.24.23|15:04:15] Training epoch: 18
+[03.24.23|15:04:36] 	mean_loss: 1.683294415473938
+[03.24.23|15:04:36] Time consumption:
+[03.24.23|15:04:36] Done.
+[03.24.23|15:04:36] Training epoch: 19
+[03.24.23|15:04:57] 	mean_loss: 1.2529911994934082
+[03.24.23|15:04:57] Time consumption:
+[03.24.23|15:04:57] Done.
+[03.24.23|15:04:57] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|15:04:57] Eval epoch: 19
+[03.24.23|15:05:18] 	mean_loss: 1.3253023823102315
+[03.24.23|15:05:18] 	Top1: 40.00%
+[03.24.23|15:05:18] 	Top5: 100.00%
+[03.24.23|15:05:18] Done.
+[03.24.23|15:05:18] Training epoch: 20
+[03.24.23|15:05:39] 	mean_loss: 1.2543621063232422
+[03.24.23|15:05:39] Time consumption:
+[03.24.23|15:05:39] Done.
+[03.24.23|15:05:39] Training epoch: 21
+[03.24.23|15:05:59] 	mean_loss: 1.6918607950210571
+[03.24.23|15:05:59] Time consumption:
+[03.24.23|15:05:59] Done.
+[03.24.23|15:05:59] Training epoch: 22
+[03.24.23|15:06:20] 	mean_loss: 1.0863550305366516
+[03.24.23|15:06:20] Time consumption:
+[03.24.23|15:06:20] Done.
+[03.24.23|15:06:20] Training epoch: 23
+[03.24.23|15:06:41] 	mean_loss: 1.6135295629501343
+[03.24.23|15:06:41] Time consumption:
+[03.24.23|15:06:41] Done.
+[03.24.23|15:06:41] Training epoch: 24
+[03.24.23|15:07:02] 	mean_loss: 1.2349700331687927
+[03.24.23|15:07:02] Time consumption:
+[03.24.23|15:07:02] Done.
+[03.24.23|15:07:02] Eval epoch: 24
+[03.24.23|15:07:23] 	mean_loss: 1.2110017935434978
+[03.24.23|15:07:23] 	Top1: 40.00%
+[03.24.23|15:07:23] 	Top5: 100.00%
+[03.24.23|15:07:23] Done.
+[03.24.23|15:07:23] Training epoch: 25
+[03.24.23|15:07:44] 	mean_loss: 1.4767245054244995
+[03.24.23|15:07:44] Time consumption:
+[03.24.23|15:07:44] Done.
+[03.24.23|15:07:44] Training epoch: 26
+[03.24.23|15:08:05] 	mean_loss: 1.257587969303131
+[03.24.23|15:08:05] Time consumption:
+[03.24.23|15:08:05] Done.
+[03.24.23|15:08:05] Training epoch: 27
+[03.24.23|15:08:26] 	mean_loss: 1.676757276058197
+[03.24.23|15:08:26] Time consumption:
+[03.24.23|15:08:26] Done.
+[03.24.23|15:08:26] Training epoch: 28
+[03.24.23|15:08:46] 	mean_loss: 1.5161669850349426
+[03.24.23|15:08:46] Time consumption:
+[03.24.23|15:08:46] Done.
+[03.24.23|15:08:46] Training epoch: 29
+[03.24.23|15:09:07] 	mean_loss: 1.6850691437721252
+[03.24.23|15:09:07] Time consumption:
+[03.24.23|15:09:07] Done.
+[03.24.23|15:09:07] The model has been saved as .\output\/epoch30_model.pt.
+[03.24.23|15:09:07] Eval epoch: 29
+[03.24.23|15:09:28] 	mean_loss: 1.1704285740852356
+[03.24.23|15:09:28] 	Top1: 40.00%
+[03.24.23|15:09:28] 	Top5: 100.00%
+[03.24.23|15:09:28] Done.
+[03.24.23|15:09:28] Training epoch: 30
+[03.24.23|15:09:49] 	mean_loss: 1.7409790754318237
+[03.24.23|15:09:49] Time consumption:
+[03.24.23|15:09:49] Done.
+[03.24.23|15:09:49] Training epoch: 31
+[03.24.23|15:10:10] 	mean_loss: 1.591867744922638
+[03.24.23|15:10:10] Time consumption:
+[03.24.23|15:10:10] Done.
+[03.24.23|15:10:10] Training epoch: 32
+[03.24.23|15:10:31] 	mean_loss: 1.9507263898849487
+[03.24.23|15:10:31] Time consumption:
+[03.24.23|15:10:31] Done.
+[03.24.23|15:10:31] Training epoch: 33
+[03.24.23|15:10:52] 	mean_loss: 1.698656439781189
+[03.24.23|15:10:52] Time consumption:
+[03.24.23|15:10:52] Done.
+[03.24.23|15:10:52] Training epoch: 34
+[03.24.23|15:11:12] 	mean_loss: 1.954647719860077
+[03.24.23|15:11:12] Time consumption:
+[03.24.23|15:11:12] Done.
+[03.24.23|15:11:12] Eval epoch: 34
+[03.24.23|15:11:33] 	mean_loss: 1.175049086411794
+[03.24.23|15:11:33] 	Top1: 40.00%
+[03.24.23|15:11:33] 	Top5: 100.00%
+[03.24.23|15:11:33] Done.
+[03.24.23|15:11:33] Training epoch: 35
+[03.24.23|15:11:54] 	mean_loss: 1.4070644974708557
+[03.24.23|15:11:54] Time consumption:
+[03.24.23|15:11:54] Done.
+[03.24.23|15:11:54] Training epoch: 36
+[03.24.23|15:12:15] 	mean_loss: 1.0532108843326569
+[03.24.23|15:12:15] Time consumption:
+[03.24.23|15:12:15] Done.
+[03.24.23|15:12:15] Training epoch: 37
+[03.24.23|15:12:36] 	mean_loss: 1.5784786939620972
+[03.24.23|15:12:36] Time consumption:
+[03.24.23|15:12:36] Done.
+[03.24.23|15:12:36] Training epoch: 38
+[03.24.23|15:12:57] 	mean_loss: 1.478079617023468
+[03.24.23|15:12:57] Time consumption:
+[03.24.23|15:12:57] Done.
+[03.24.23|15:12:57] Training epoch: 39
+[03.24.23|15:13:17] 	mean_loss: 1.4409265518188477
+[03.24.23|15:13:17] Time consumption:
+[03.24.23|15:13:17] Done.
+[03.24.23|15:13:17] The model has been saved as .\output\/epoch40_model.pt.
+[03.24.23|15:13:17] Eval epoch: 39
+[03.24.23|15:13:38] 	mean_loss: 1.18304310242335
+[03.24.23|15:13:38] 	Top1: 40.00%
+[03.24.23|15:13:38] 	Top5: 100.00%
+[03.24.23|15:13:38] Done.
+[03.24.23|15:13:38] Training epoch: 40
+[03.24.23|15:13:59] 	mean_loss: 1.8061491250991821
+[03.24.23|15:13:59] Time consumption:
+[03.24.23|15:13:59] Done.
+[03.24.23|15:13:59] Training epoch: 41
+[03.24.23|15:14:20] 	mean_loss: 1.2148351073265076
+[03.24.23|15:14:20] Time consumption:
+[03.24.23|15:14:20] Done.
+[03.24.23|15:14:20] Training epoch: 42
+[03.24.23|15:14:41] 	mean_loss: 1.4718173146247864
+[03.24.23|15:14:41] Time consumption:
+[03.24.23|15:14:41] Done.
+[03.24.23|15:14:41] Training epoch: 43
+[03.24.23|15:15:02] 	mean_loss: 1.5653399229049683
+[03.24.23|15:15:02] Time consumption:
+[03.24.23|15:15:02] Done.
+[03.24.23|15:15:02] Training epoch: 44
+[03.24.23|15:15:22] 	mean_loss: 1.8401764631271362
+[03.24.23|15:15:22] Time consumption:
+[03.24.23|15:15:22] Done.
+[03.24.23|15:15:22] Eval epoch: 44
+[03.24.23|15:15:43] 	mean_loss: 1.1831946273644764
+[03.24.23|15:15:43] 	Top1: 40.00%
+[03.24.23|15:15:43] 	Top5: 100.00%
+[03.24.23|15:15:43] Done.
+[03.24.23|15:15:43] Training epoch: 45
+[03.24.23|15:16:04] 	mean_loss: 1.432268738746643
+[03.24.23|15:16:04] Time consumption:
+[03.24.23|15:16:04] Done.
+[03.24.23|15:16:04] Training epoch: 46
+[03.24.23|15:16:25] 	mean_loss: 1.2524535059928894
+[03.24.23|15:16:25] Time consumption:
+[03.24.23|15:16:25] Done.
+[03.24.23|15:16:25] Training epoch: 47
+[03.24.23|15:16:46] 	mean_loss: 1.771737277507782
+[03.24.23|15:16:46] Time consumption:
+[03.24.23|15:16:46] Done.
+[03.24.23|15:16:46] Training epoch: 48
+[03.24.23|15:17:06] 	mean_loss: 1.7868854999542236
+[03.24.23|15:17:06] Time consumption:
+[03.24.23|15:17:06] Done.
+[03.24.23|15:17:06] Training epoch: 49
+[03.24.23|15:17:27] 	mean_loss: 1.6617735028266907
+[03.24.23|15:17:27] Time consumption:
+[03.24.23|15:17:27] Done.
+[03.24.23|15:17:27] The model has been saved as .\output\/epoch50_model.pt.
+[03.24.23|15:17:27] Eval epoch: 49
+[03.24.23|15:17:48] 	mean_loss: 1.1741552452246349
+[03.24.23|15:17:48] 	Top1: 40.00%
+[03.24.23|15:17:48] 	Top5: 100.00%
+[03.24.23|15:17:48] Done.
+[03.24.23|15:17:48] Training epoch: 50
+[03.24.23|15:18:07] 	Iter 100 Done. | loss: 1.2907 | lr: 0.000000
+[03.24.23|15:18:09] 	mean_loss: 1.6558417677879333
+[03.24.23|15:18:09] Time consumption:
+[03.24.23|15:18:09] Done.
+[03.24.23|15:18:09] Training epoch: 51
+[03.24.23|15:18:30] 	mean_loss: 1.1642707586288452
+[03.24.23|15:18:30] Time consumption:
+[03.24.23|15:18:30] Done.
+[03.24.23|15:18:30] Training epoch: 52
+[03.24.23|15:18:50] 	mean_loss: 1.4621629118919373
+[03.24.23|15:18:50] Time consumption:
+[03.24.23|15:18:50] Done.
+[03.24.23|15:18:50] Training epoch: 53
+[03.24.23|15:19:11] 	mean_loss: 1.5159926414489746
+[03.24.23|15:19:11] Time consumption:
+[03.24.23|15:19:11] Done.
+[03.24.23|15:19:11] Training epoch: 54
+[03.24.23|15:19:32] 	mean_loss: 1.8495994806289673
+[03.24.23|15:19:32] Time consumption:
+[03.24.23|15:19:32] Done.
+[03.24.23|15:19:32] Eval epoch: 54
+[03.24.23|15:19:53] 	mean_loss: 1.137054552634557
+[03.24.23|15:19:53] 	Top1: 40.00%
+[03.24.23|15:19:53] 	Top5: 100.00%
+[03.24.23|15:19:53] Done.
+[03.24.23|15:19:53] Training epoch: 55
+[03.24.23|15:20:13] 	mean_loss: 1.159267246723175
+[03.24.23|15:20:13] Time consumption:
+[03.24.23|15:20:13] Done.
+[03.24.23|15:20:13] Training epoch: 56
+[03.24.23|15:20:34] 	mean_loss: 1.1623178124427795
+[03.24.23|15:20:34] Time consumption:
+[03.24.23|15:20:34] Done.
+[03.24.23|15:20:34] Training epoch: 57
+[03.24.23|15:20:55] 	mean_loss: 1.094762921333313
+[03.24.23|15:20:55] Time consumption:
+[03.24.23|15:20:55] Done.
+[03.24.23|15:20:55] Training epoch: 58
+[03.24.23|15:21:16] 	mean_loss: 1.715008020401001
+[03.24.23|15:21:16] Time consumption:
+[03.24.23|15:21:16] Done.
+[03.24.23|15:21:16] Training epoch: 59
+[03.24.23|15:21:37] 	mean_loss: 1.304305613040924
+[03.24.23|15:21:37] Time consumption:
+[03.24.23|15:21:37] Done.
+[03.24.23|15:21:37] The model has been saved as .\output\/epoch60_model.pt.
+[03.24.23|15:21:37] Eval epoch: 59
+[03.24.23|15:21:57] 	mean_loss: 1.134060651063919
+[03.24.23|15:21:57] 	Top1: 40.00%
+[03.24.23|15:21:57] 	Top5: 100.00%
+[03.24.23|15:21:57] Done.
+[03.24.23|15:21:57] Training epoch: 60
+[03.24.23|15:22:18] 	mean_loss: 1.7101935744285583
+[03.24.23|15:22:18] Time consumption:
+[03.24.23|15:22:18] Done.
+[03.24.23|15:22:18] Training epoch: 61
+[03.24.23|15:22:39] 	mean_loss: 1.906542420387268
+[03.24.23|15:22:39] Time consumption:
+[03.24.23|15:22:39] Done.
+[03.24.23|15:22:39] Training epoch: 62
+[03.24.23|15:23:00] 	mean_loss: 1.7995670437812805
+[03.24.23|15:23:00] Time consumption:
+[03.24.23|15:23:00] Done.
+[03.24.23|15:23:00] Training epoch: 63
+[03.24.23|15:23:21] 	mean_loss: 1.7248786687850952
+[03.24.23|15:23:21] Time consumption:
+[03.24.23|15:23:21] Done.
+[03.24.23|15:23:21] Training epoch: 64
+[03.24.23|15:23:42] 	mean_loss: 1.7683717012405396
+[03.24.23|15:23:42] Time consumption:
+[03.24.23|15:23:42] Done.
+[03.24.23|15:23:42] Eval epoch: 64
+[03.24.23|15:24:02] 	mean_loss: 1.22820379336675
+[03.24.23|15:24:02] 	Top1: 40.00%
+[03.24.23|15:24:02] 	Top5: 100.00%
+[03.24.23|15:24:02] Done.
+[03.24.23|15:24:02] Training epoch: 65
+[03.24.23|15:24:23] 	mean_loss: 1.1564780473709106
+[03.24.23|15:24:23] Time consumption:
+[03.24.23|15:24:23] Done.
+[03.24.23|15:24:23] Training epoch: 66
+[03.24.23|15:24:44] 	mean_loss: 1.2950507402420044
+[03.24.23|15:24:44] Time consumption:
+[03.24.23|15:24:44] Done.
+[03.24.23|15:24:44] Training epoch: 67
+[03.24.23|15:25:05] 	mean_loss: 1.2240603566169739
+[03.24.23|15:25:05] Time consumption:
+[03.24.23|15:25:05] Done.
+[03.24.23|15:25:05] Training epoch: 68
+[03.24.23|15:25:25] 	mean_loss: 1.4488445520401
+[03.24.23|15:25:25] Time consumption:
+[03.24.23|15:25:25] Done.
+[03.24.23|15:25:25] Training epoch: 69
+[03.24.23|15:25:46] 	mean_loss: 1.570792019367218
+[03.24.23|15:25:46] Time consumption:
+[03.24.23|15:25:46] Done.
+[03.24.23|15:25:46] The model has been saved as .\output\/epoch70_model.pt.
+[03.24.23|15:25:46] Eval epoch: 69
+[03.24.23|15:26:07] 	mean_loss: 1.2318391005198162
+[03.24.23|15:26:07] 	Top1: 40.00%
+[03.24.23|15:26:07] 	Top5: 100.00%
+[03.24.23|15:26:07] Done.
+[03.24.23|15:26:07] Training epoch: 70
+[03.24.23|15:26:28] 	mean_loss: 1.4952850937843323
+[03.24.23|15:26:28] Time consumption:
+[03.24.23|15:26:28] Done.
+[03.24.23|15:26:28] Training epoch: 71
+[03.24.23|15:26:50] 	mean_loss: 1.1450148820877075
+[03.24.23|15:26:50] Time consumption:
+[03.24.23|15:26:50] Done.
+[03.24.23|15:26:50] Training epoch: 72
+[03.24.23|15:27:11] 	mean_loss: 1.2430410385131836
+[03.24.23|15:27:11] Time consumption:
+[03.24.23|15:27:11] Done.
+[03.24.23|15:27:11] Training epoch: 73
+[03.24.23|15:27:32] 	mean_loss: 1.5082842111587524
+[03.24.23|15:27:32] Time consumption:
+[03.24.23|15:27:32] Done.
+[03.24.23|15:27:32] Training epoch: 74
+[03.24.23|15:27:54] 	mean_loss: 1.5786617398262024
+[03.24.23|15:27:54] Time consumption:
+[03.24.23|15:27:54] Done.
+[03.24.23|15:27:54] Eval epoch: 74
+[03.24.23|15:28:15] 	mean_loss: 1.1562353273232777
+[03.24.23|15:28:15] 	Top1: 40.00%
+[03.24.23|15:28:15] 	Top5: 100.00%
+[03.24.23|15:28:15] Done.
+[03.24.23|15:28:15] Training epoch: 75
+[03.24.23|15:28:37] 	mean_loss: 1.8258110880851746
+[03.24.23|15:28:37] Time consumption:
+[03.24.23|15:28:37] Done.
+[03.24.23|15:28:37] Training epoch: 76
+[03.24.23|15:28:59] 	mean_loss: 1.7684009075164795
+[03.24.23|15:28:59] Time consumption:
+[03.24.23|15:28:59] Done.
+[03.24.23|15:28:59] Training epoch: 77
+[03.24.23|15:29:20] 	mean_loss: 1.606911063194275
+[03.24.23|15:29:20] Time consumption:
+[03.24.23|15:29:20] Done.
+[03.24.23|15:29:20] Training epoch: 78
+[03.24.23|15:29:41] 	mean_loss: 1.7430534362792969
+[03.24.23|15:29:41] Time consumption:
+[03.24.23|15:29:41] Done.
+[03.24.23|15:29:41] Training epoch: 79
+[03.24.23|15:30:02] 	mean_loss: 1.2295491099357605
+[03.24.23|15:30:02] Time consumption:
+[03.24.23|15:30:02] Done.
+[03.24.23|15:30:02] The model has been saved as .\output\/epoch80_model.pt.
+[03.24.23|15:30:02] Eval epoch: 79
+[03.24.23|15:30:23] 	mean_loss: 1.1638253331184387
+[03.24.23|15:30:23] 	Top1: 40.00%
+[03.24.23|15:30:23] 	Top5: 100.00%
+[03.24.23|15:30:23] Done.
+[03.24.23|15:30:23] Training epoch: 80
+[03.24.23|15:30:43] 	mean_loss: 1.552095353603363
+[03.24.23|15:30:43] Time consumption:
+[03.24.23|15:30:43] Done.
+[03.24.23|15:30:43] Training epoch: 81
+[03.24.23|15:31:04] 	mean_loss: 1.8382386565208435
+[03.24.23|15:31:04] Time consumption:
+[03.24.23|15:31:04] Done.
+[03.24.23|15:31:04] Training epoch: 82
+[03.24.23|15:31:25] 	mean_loss: 1.5604682564735413
+[03.24.23|15:31:25] Time consumption:
+[03.24.23|15:31:25] Done.
+[03.24.23|15:31:25] Training epoch: 83
+[03.24.23|15:31:46] 	mean_loss: 1.4549447894096375
+[03.24.23|15:31:46] Time consumption:
+[03.24.23|15:31:46] Done.
+[03.24.23|15:31:46] Training epoch: 84
+[03.24.23|15:32:07] 	mean_loss: 1.3146186470985413
+[03.24.23|15:32:07] Time consumption:
+[03.24.23|15:32:07] Done.
+[03.24.23|15:32:07] Eval epoch: 84
+[03.24.23|15:32:29] 	mean_loss: 1.1551823019981384
+[03.24.23|15:32:29] 	Top1: 40.00%
+[03.24.23|15:32:29] 	Top5: 100.00%
+[03.24.23|15:32:29] Done.
+[03.24.23|15:32:29] Training epoch: 85
+[03.24.23|15:32:50] 	mean_loss: 1.7209944128990173
+[03.24.23|15:32:50] Time consumption:
+[03.24.23|15:32:50] Done.
+[03.24.23|15:32:50] Training epoch: 86
+[03.24.23|15:33:11] 	mean_loss: 1.4220291376113892
+[03.24.23|15:33:11] Time consumption:
+[03.24.23|15:33:11] Done.
+[03.24.23|15:33:11] Training epoch: 87
+[03.24.23|15:33:33] 	mean_loss: 1.3886584639549255
+[03.24.23|15:33:33] Time consumption:
+[03.24.23|15:33:33] Done.
+[03.24.23|15:33:33] Training epoch: 88
+[03.24.23|15:33:55] 	mean_loss: 1.7041246891021729
+[03.24.23|15:33:55] Time consumption:
+[03.24.23|15:33:55] Done.
+[03.24.23|15:33:55] Training epoch: 89
+[03.24.23|15:34:16] 	mean_loss: 1.3421548306941986
+[03.24.23|15:34:16] Time consumption:
+[03.24.23|15:34:16] Done.
+[03.24.23|15:34:16] The model has been saved as .\output\/epoch90_model.pt.
+[03.24.23|15:34:16] Eval epoch: 89
+[03.24.23|15:34:38] 	mean_loss: 1.1378314395745595
+[03.24.23|15:34:38] 	Top1: 40.00%
+[03.24.23|15:34:38] 	Top5: 100.00%
+[03.24.23|15:34:38] Done.
+[03.24.23|15:34:38] Training epoch: 90
+[03.24.23|15:34:59] 	mean_loss: 1.6365573406219482
+[03.24.23|15:34:59] Time consumption:
+[03.24.23|15:34:59] Done.
+[03.24.23|15:34:59] Training epoch: 91
+[03.24.23|15:35:20] 	mean_loss: 2.057609736919403
+[03.24.23|15:35:20] Time consumption:
+[03.24.23|15:35:20] Done.
+[03.24.23|15:35:20] Training epoch: 92
+[03.24.23|15:35:42] 	mean_loss: 1.287181794643402
+[03.24.23|15:35:42] Time consumption:
+[03.24.23|15:35:42] Done.
+[03.24.23|15:35:42] Training epoch: 93
+[03.24.23|15:36:03] 	mean_loss: 1.515106201171875
+[03.24.23|15:36:03] Time consumption:
+[03.24.23|15:36:03] Done.
+[03.24.23|15:36:03] Training epoch: 94
+[03.24.23|15:36:24] 	mean_loss: 1.6398568749427795
+[03.24.23|15:36:24] Time consumption:
+[03.24.23|15:36:24] Done.
+[03.24.23|15:36:24] Eval epoch: 94
+[03.24.23|15:36:45] 	mean_loss: 1.0959127147992451
+[03.24.23|15:36:45] 	Top1: 40.00%
+[03.24.23|15:36:45] 	Top5: 100.00%
+[03.24.23|15:36:45] Done.
+[03.24.23|15:36:45] Training epoch: 95
+[03.24.23|15:37:07] 	mean_loss: 2.310205578804016
+[03.24.23|15:37:07] Time consumption:
+[03.24.23|15:37:07] Done.
+[03.24.23|15:37:07] Training epoch: 96
+[03.24.23|15:37:28] 	mean_loss: 1.328538417816162
+[03.24.23|15:37:28] Time consumption:
+[03.24.23|15:37:28] Done.
+[03.24.23|15:37:28] Training epoch: 97
+[03.24.23|15:37:50] 	mean_loss: 1.0978164076805115
+[03.24.23|15:37:50] Time consumption:
+[03.24.23|15:37:50] Done.
+[03.24.23|15:37:50] Training epoch: 98
+[03.24.23|15:38:11] 	mean_loss: 1.2771475911140442
+[03.24.23|15:38:11] Time consumption:
+[03.24.23|15:38:11] Done.
+[03.24.23|15:38:11] Training epoch: 99
+[03.24.23|15:38:32] 	mean_loss: 1.5674282014369965
+[03.24.23|15:38:32] Time consumption:
+[03.24.23|15:38:32] Done.
+[03.24.23|15:38:33] The model has been saved as .\output\/epoch100_model.pt.
+[03.24.23|15:38:33] Eval epoch: 99
+[03.24.23|15:38:54] 	mean_loss: 1.147038608789444
+[03.24.23|15:38:54] 	Top1: 40.00%
+[03.24.23|15:38:54] 	Top5: 100.00%
+[03.24.23|15:38:54] Done.
+[03.24.23|15:52:01] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 1000, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [100, 200, 300, 400, 500, 600, 700], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|15:52:01] Training epoch: 0
+[03.24.23|15:52:21] 	Iter 0 Done. | loss: 2.1008 | lr: 0.010000
+[03.24.23|15:52:22] 	mean_loss: 2.5704731941223145
+[03.24.23|15:52:22] Time consumption:
+[03.24.23|15:52:22] Done.
+[03.24.23|15:52:22] Training epoch: 1
+[03.24.23|15:52:43] 	mean_loss: 2.5898735523223877
+[03.24.23|15:52:43] Time consumption:
+[03.24.23|15:52:43] Done.
+[03.24.23|15:52:43] Training epoch: 2
+[03.24.23|15:53:04] 	mean_loss: 2.135849118232727
+[03.24.23|15:53:04] Time consumption:
+[03.24.23|15:53:04] Done.
+[03.24.23|15:53:04] Training epoch: 3
+[03.24.23|15:53:26] 	mean_loss: 2.1560460031032562
+[03.24.23|15:53:26] Time consumption:
+[03.24.23|15:53:26] Done.
+[03.24.23|15:53:26] Training epoch: 4
+[03.24.23|15:53:48] 	mean_loss: 2.546526551246643
+[03.24.23|15:53:48] Time consumption:
+[03.24.23|15:53:48] Done.
+[03.24.23|15:53:48] Eval epoch: 4
+[03.24.23|15:54:09] 	mean_loss: 1.969906489054362
+[03.24.23|15:54:09] 	Top1: 20.00%
+[03.24.23|15:56:01] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 1000, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [100, 200, 300, 400, 500, 600, 700], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|15:56:01] Training epoch: 0
+[03.24.23|15:56:21] 	Iter 0 Done. | loss: 2.2699 | lr: 0.010000
+[03.24.23|15:56:23] 	mean_loss: 2.7451640367507935
+[03.24.23|15:56:23] Time consumption:
+[03.24.23|15:56:23] Done.
+[03.24.23|15:56:23] Training epoch: 1
+[03.24.23|15:56:44] 	mean_loss: 2.5080447793006897
+[03.24.23|15:56:44] Time consumption:
+[03.24.23|15:56:44] Done.
+[03.24.23|15:56:44] Training epoch: 2
+[03.24.23|15:57:05] 	mean_loss: 2.3329630494117737
+[03.24.23|15:57:05] Time consumption:
+[03.24.23|15:57:05] Done.
+[03.24.23|15:57:05] Training epoch: 3
+[03.24.23|15:57:26] 	mean_loss: 2.7526940405368805
+[03.24.23|15:57:26] Time consumption:
+[03.24.23|15:57:26] Done.
+[03.24.23|15:57:26] Training epoch: 4
+[03.24.23|15:57:47] 	mean_loss: 3.0280665159225464
+[03.24.23|15:57:47] Time consumption:
+[03.24.23|15:57:47] Done.
+[03.24.23|15:57:47] Eval epoch: 4
+[03.24.23|15:58:07] 	mean_loss: 1.54671315352122
+[03.24.23|15:58:07] 	Top1: 40.00%
+[03.24.23|15:58:07] 	Top5: 100.00%
+[03.24.23|15:58:07] Done.
+[03.24.23|15:58:07] Training epoch: 5
+[03.24.23|15:58:28] 	mean_loss: 1.3353329300880432
+[03.24.23|15:58:28] Time consumption:
+[03.24.23|15:58:28] Done.
+[03.24.23|15:58:28] Training epoch: 6
+[03.24.23|15:58:50] 	mean_loss: 2.1486876010894775
+[03.24.23|15:58:50] Time consumption:
+[03.24.23|15:58:50] Done.
+[03.24.23|15:58:50] Training epoch: 7
+[03.24.23|15:59:11] 	mean_loss: 1.822557508945465
+[03.24.23|15:59:11] Time consumption:
+[03.24.23|15:59:11] Done.
+[03.24.23|15:59:11] Training epoch: 8
+[03.24.23|15:59:32] 	mean_loss: 3.2388059496879578
+[03.24.23|15:59:32] Time consumption:
+[03.24.23|15:59:32] Done.
+[03.24.23|15:59:32] Training epoch: 9
+[03.24.23|15:59:53] 	mean_loss: 1.8686299324035645
+[03.24.23|15:59:53] Time consumption:
+[03.24.23|15:59:53] Done.
+[03.24.23|15:59:53] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|15:59:53] Eval epoch: 9
+[03.24.23|16:00:14] 	mean_loss: 6.472788751125336
+[03.24.23|16:00:14] 	Top1: 40.00%
+[03.24.23|16:00:14] 	Top5: 100.00%
+[03.24.23|16:00:14] Done.
+[03.24.23|16:00:14] Training epoch: 10
+[03.24.23|16:00:35] 	mean_loss: 1.2012928128242493
+[03.24.23|16:00:35] Time consumption:
+[03.24.23|16:00:35] Done.
+[03.24.23|16:00:35] Training epoch: 11
+[03.24.23|16:00:56] 	mean_loss: 2.163473606109619
+[03.24.23|16:00:56] Time consumption:
+[03.24.23|16:00:56] Done.
+[03.24.23|16:00:56] Training epoch: 12
+[03.24.23|16:01:19] 	mean_loss: 1.8152892589569092
+[03.24.23|16:01:19] Time consumption:
+[03.24.23|16:01:19] Done.
+[03.24.23|16:01:19] Training epoch: 13
+[03.24.23|16:01:40] 	mean_loss: 1.6072229146957397
+[03.24.23|16:01:40] Time consumption:
+[03.24.23|16:01:40] Done.
+[03.24.23|16:01:40] Training epoch: 14
+[03.24.23|16:02:01] 	mean_loss: 1.330471932888031
+[03.24.23|16:02:01] Time consumption:
+[03.24.23|16:02:01] Done.
+[03.24.23|16:02:01] Eval epoch: 14
+[03.24.23|16:02:22] 	mean_loss: 6.524593551953633
+[03.24.23|16:02:22] 	Top1: 40.00%
+[03.24.23|16:02:22] 	Top5: 100.00%
+[03.24.23|16:02:22] Done.
+[03.24.23|16:02:22] Training epoch: 15
+[03.24.23|16:02:43] 	mean_loss: 1.4356037974357605
+[03.24.23|16:02:43] Time consumption:
+[03.24.23|16:02:43] Done.
+[03.24.23|16:02:43] Training epoch: 16
+[03.24.23|16:03:04] 	mean_loss: 2.3862452507019043
+[03.24.23|16:03:04] Time consumption:
+[03.24.23|16:03:04] Done.
+[03.24.23|16:03:04] Training epoch: 17
+[03.24.23|16:03:26] 	mean_loss: 1.4081441164016724
+[03.24.23|16:03:26] Time consumption:
+[03.24.23|16:03:26] Done.
+[03.24.23|16:03:26] Training epoch: 18
+[03.24.23|16:03:47] 	mean_loss: 1.7456080317497253
+[03.24.23|16:03:47] Time consumption:
+[03.24.23|16:03:47] Done.
+[03.24.23|16:03:47] Training epoch: 19
+[03.24.23|16:04:08] 	mean_loss: 1.5232667922973633
+[03.24.23|16:04:08] Time consumption:
+[03.24.23|16:04:08] Done.
+[03.24.23|16:04:08] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|16:04:08] Eval epoch: 19
+[03.24.23|16:04:29] 	mean_loss: 2.160583714644114
+[03.24.23|16:04:29] 	Top1: 60.00%
+[03.24.23|16:04:29] 	Top5: 100.00%
+[03.24.23|16:04:29] Done.
+[03.24.23|16:04:29] Training epoch: 20
+[03.24.23|16:04:50] 	mean_loss: 2.0956960320472717
+[03.24.23|16:04:50] Time consumption:
+[03.24.23|16:04:50] Done.
+[03.24.23|16:04:50] Training epoch: 21
+[03.24.23|16:05:11] 	mean_loss: 1.2621991038322449
+[03.24.23|16:05:11] Time consumption:
+[03.24.23|16:05:11] Done.
+[03.24.23|16:05:11] Training epoch: 22
+[03.24.23|16:05:31] 	mean_loss: 1.568240225315094
+[03.24.23|16:05:31] Time consumption:
+[03.24.23|16:05:31] Done.
+[03.24.23|16:05:31] Training epoch: 23
+[03.24.23|16:05:52] 	mean_loss: 1.2335781455039978
+[03.24.23|16:05:52] Time consumption:
+[03.24.23|16:05:52] Done.
+[03.24.23|16:05:52] Training epoch: 24
+[03.24.23|16:06:13] 	mean_loss: 1.1315638422966003
+[03.24.23|16:06:13] Time consumption:
+[03.24.23|16:06:13] Done.
+[03.24.23|16:06:13] Eval epoch: 24
+[03.24.23|16:06:34] 	mean_loss: 2.065156102180481
+[03.24.23|16:06:34] 	Top1: 40.00%
+[03.24.23|16:06:34] 	Top5: 100.00%
+[03.24.23|16:06:34] Done.
+[03.24.23|16:06:34] Training epoch: 25
+[03.24.23|16:06:55] 	mean_loss: 1.140909418463707
+[03.24.23|16:06:55] Time consumption:
+[03.24.23|16:06:55] Done.
+[03.24.23|16:06:55] Training epoch: 26
+[03.24.23|16:07:16] 	mean_loss: 2.2381198406219482
+[03.24.23|16:07:16] Time consumption:
+[03.24.23|16:07:16] Done.
+[03.24.23|16:07:16] Training epoch: 27
+[03.24.23|16:07:37] 	mean_loss: 1.4978783130645752
+[03.24.23|16:07:37] Time consumption:
+[03.24.23|16:07:37] Done.
+[03.24.23|16:07:37] Training epoch: 28
+[03.24.23|16:07:58] 	mean_loss: 0.8340406715869904
+[03.24.23|16:07:58] Time consumption:
+[03.24.23|16:07:58] Done.
+[03.24.23|16:07:58] Training epoch: 29
+[03.24.23|16:08:19] 	mean_loss: 1.4560186862945557
+[03.24.23|16:08:19] Time consumption:
+[03.24.23|16:08:19] Done.
+[03.24.23|16:08:19] The model has been saved as .\output\/epoch30_model.pt.
+[03.24.23|16:08:19] Eval epoch: 29
+[03.24.23|16:08:40] 	mean_loss: 1.0262291280863185
+[03.24.23|16:08:40] 	Top1: 80.00%
+[03.24.23|16:08:40] 	Top5: 100.00%
+[03.24.23|16:08:40] Done.
+[03.24.23|16:08:40] Training epoch: 30
+[03.24.23|16:09:01] 	mean_loss: 1.715541273355484
+[03.24.23|16:09:01] Time consumption:
+[03.24.23|16:09:01] Done.
+[03.24.23|16:09:01] Training epoch: 31
+[03.24.23|16:09:22] 	mean_loss: 1.3799383640289307
+[03.24.23|16:09:22] Time consumption:
+[03.24.23|16:09:22] Done.
+[03.24.23|16:09:22] Training epoch: 32
+[03.24.23|16:09:44] 	mean_loss: 2.0057724714279175
+[03.24.23|16:09:44] Time consumption:
+[03.24.23|16:09:44] Done.
+[03.24.23|16:09:44] Training epoch: 33
+[03.24.23|16:10:05] 	mean_loss: 2.335638701915741
+[03.24.23|16:10:05] Time consumption:
+[03.24.23|16:10:05] Done.
+[03.24.23|16:10:05] Training epoch: 34
+[03.24.23|16:10:27] 	mean_loss: 1.2121541500091553
+[03.24.23|16:10:27] Time consumption:
+[03.24.23|16:10:27] Done.
+[03.24.23|16:10:27] Eval epoch: 34
+[03.24.23|16:10:48] 	mean_loss: 1.6437823573748271
+[03.24.23|16:10:48] 	Top1: 40.00%
+[03.24.23|16:10:48] 	Top5: 100.00%
+[03.24.23|16:10:48] Done.
+[03.24.23|16:10:48] Training epoch: 35
+[03.24.23|16:11:10] 	mean_loss: 1.4094244241714478
+[03.24.23|16:11:10] Time consumption:
+[03.24.23|16:11:10] Done.
+[03.24.23|16:11:10] Training epoch: 36
+[03.24.23|16:11:32] 	mean_loss: 1.3054928183555603
+[03.24.23|16:11:32] Time consumption:
+[03.24.23|16:11:32] Done.
+[03.24.23|16:11:32] Training epoch: 37
+[03.24.23|16:11:53] 	mean_loss: 1.551775336265564
+[03.24.23|16:11:53] Time consumption:
+[03.24.23|16:11:53] Done.
+[03.24.23|16:11:53] Training epoch: 38
+[03.24.23|16:12:15] 	mean_loss: 1.1078965067863464
+[03.24.23|16:12:15] Time consumption:
+[03.24.23|16:12:15] Done.
+[03.24.23|16:12:15] Training epoch: 39
+[03.24.23|16:12:37] 	mean_loss: 1.4717488884925842
+[03.24.23|16:12:37] Time consumption:
+[03.24.23|16:12:37] Done.
+[03.24.23|16:12:37] The model has been saved as .\output\/epoch40_model.pt.
+[03.24.23|16:12:37] Eval epoch: 39
+[03.24.23|16:12:58] 	mean_loss: 1.0340925852457683
+[03.24.23|16:12:58] 	Top1: 60.00%
+[03.24.23|16:12:58] 	Top5: 100.00%
+[03.24.23|16:12:58] Done.
+[03.24.23|16:12:58] Training epoch: 40
+[03.24.23|16:13:19] 	mean_loss: 1.1423504948616028
+[03.24.23|16:13:19] Time consumption:
+[03.24.23|16:13:19] Done.
+[03.24.23|16:13:19] Training epoch: 41
+[03.24.23|16:13:41] 	mean_loss: 1.5429238677024841
+[03.24.23|16:13:41] Time consumption:
+[03.24.23|16:13:41] Done.
+[03.24.23|16:13:41] Training epoch: 42
+[03.24.23|16:14:02] 	mean_loss: 1.3439585268497467
+[03.24.23|16:14:02] Time consumption:
+[03.24.23|16:14:02] Done.
+[03.24.23|16:14:02] Training epoch: 43
+[03.24.23|16:14:23] 	mean_loss: 0.9694219827651978
+[03.24.23|16:14:23] Time consumption:
+[03.24.23|16:14:23] Done.
+[03.24.23|16:14:23] Training epoch: 44
+[03.24.23|16:14:44] 	mean_loss: 1.4848076105117798
+[03.24.23|16:14:44] Time consumption:
+[03.24.23|16:14:44] Done.
+[03.24.23|16:14:44] Eval epoch: 44
+[03.24.23|16:15:06] 	mean_loss: 0.9230271379152933
+[03.24.23|16:15:06] 	Top1: 40.00%
+[03.24.23|16:15:06] 	Top5: 100.00%
+[03.24.23|16:15:06] Done.
+[03.24.23|16:15:06] Training epoch: 45
+[03.24.23|16:15:27] 	mean_loss: 1.066044181585312
+[03.24.23|16:15:27] Time consumption:
+[03.24.23|16:15:27] Done.
+[03.24.23|16:15:27] Training epoch: 46
+[03.24.23|16:15:49] 	mean_loss: 1.5450153350830078
+[03.24.23|16:15:49] Time consumption:
+[03.24.23|16:15:49] Done.
+[03.24.23|16:15:49] Training epoch: 47
+[03.24.23|16:16:11] 	mean_loss: 0.9778245091438293
+[03.24.23|16:16:11] Time consumption:
+[03.24.23|16:16:11] Done.
+[03.24.23|16:16:11] Training epoch: 48
+[03.24.23|16:16:29] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 1000, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [100, 200, 300, 400, 500, 600, 700], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|16:16:29] Training epoch: 0
+[03.24.23|16:16:48] 	Iter 0 Done. | loss: 1.6612 | lr: 0.010000
+[03.24.23|16:16:50] 	mean_loss: 2.471855044364929
+[03.24.23|16:16:50] Time consumption:
+[03.24.23|16:16:50] Done.
+[03.24.23|16:16:50] Training epoch: 1
+[03.24.23|16:17:11] 	mean_loss: 2.415440082550049
+[03.24.23|16:17:11] Time consumption:
+[03.24.23|16:17:11] Done.
+[03.24.23|16:17:11] Training epoch: 2
+[03.24.23|16:17:32] 	mean_loss: 2.060722053050995
+[03.24.23|16:17:32] Time consumption:
+[03.24.23|16:17:32] Done.
+[03.24.23|16:17:32] Training epoch: 3
+[03.24.23|16:17:53] 	mean_loss: 2.962254285812378
+[03.24.23|16:17:53] Time consumption:
+[03.24.23|16:17:53] Done.
+[03.24.23|16:17:53] Training epoch: 4
+[03.24.23|16:18:14] 	mean_loss: 2.881461024284363
+[03.24.23|16:18:14] Time consumption:
+[03.24.23|16:18:14] Done.
+[03.24.23|16:18:14] Eval epoch: 4
+[03.24.23|16:18:35] 	mean_loss: 2.726936419804891
+[03.24.23|16:18:35] 	Top1: 20.00%
+[03.24.23|16:27:17] Parameters:
+{'work_dir': '.\\output\\', 'config': 'config/st_gcn/kinetics-skeleton/train.yaml', 'phase': 'train', 'save_result': False, 'start_epoch': 0, 'num_epoch': 1000, 'use_gpu': False, 'device': [0, 1, 2, 3], 'log_interval': 100, 'save_interval': 10, 'eval_interval': 5, 'save_log': True, 'print_log': True, 'pavi_log': False, 'feeder': 'feeder.feeder.Feeder', 'num_worker': 4, 'train_feeder_args': {'random_choose': True, 'random_move': True, 'window_size': 150, 'data_path': './data/Kinetics/kinetics-skeleton/train_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/train_label.pkl', 'debug': False}, 'test_feeder_args': {'data_path': './data/Kinetics/kinetics-skeleton/val_data.npy', 'label_path': './data/Kinetics/kinetics-skeleton/val_label.pkl'}, 'batch_size': 2, 'test_batch_size': 2, 'debug': False, 'model': 'net.st_gcn.Model', 'model_args': {'in_channels': 3, 'num_class': 5, 'edge_importance_weighting': True, 'graph_args': {'layout': 'openpose', 'strategy': 'spatial'}}, 'weights': None, 'ignore_weights': [], 'show_topk': [1, 5], 'base_lr': 0.01, 'step': [100, 200, 300, 400, 500, 600, 700], 'optimizer': 'SGD', 'nesterov': True, 'weight_decay': 0.0001}
+
+[03.24.23|16:27:17] Training epoch: 0
+[03.24.23|16:27:36] 	Iter 0 Done. | loss: 1.8079 | lr: 0.010000
+[03.24.23|16:27:38] 	mean_loss: 2.5641419291496277
+[03.24.23|16:27:38] Time consumption:
+[03.24.23|16:27:38] Done.
+[03.24.23|16:27:38] Training epoch: 1
+[03.24.23|16:27:59] 	mean_loss: 2.7991146445274353
+[03.24.23|16:27:59] Time consumption:
+[03.24.23|16:27:59] Done.
+[03.24.23|16:27:59] Training epoch: 2
+[03.24.23|16:28:21] 	mean_loss: 2.3774070739746094
+[03.24.23|16:28:21] Time consumption:
+[03.24.23|16:28:21] Done.
+[03.24.23|16:28:21] Training epoch: 3
+[03.24.23|16:28:42] 	mean_loss: 3.042397141456604
+[03.24.23|16:28:42] Time consumption:
+[03.24.23|16:28:42] Done.
+[03.24.23|16:28:42] Training epoch: 4
+[03.24.23|16:29:03] 	mean_loss: 2.8579044938087463
+[03.24.23|16:29:03] Time consumption:
+[03.24.23|16:29:03] Done.
+[03.24.23|16:29:03] Eval epoch: 4
+[03.24.23|16:29:24] 	mean_loss: 1.7639466126759846
+[03.24.23|16:29:24] 	Top1: 20.00%
+[03.24.23|16:29:24] 	Top5: 100.00%
+[03.24.23|16:29:24] Done.
+[03.24.23|16:29:24] Training epoch: 5
+[03.24.23|16:29:45] 	mean_loss: 2.166668176651001
+[03.24.23|16:29:45] Time consumption:
+[03.24.23|16:29:45] Done.
+[03.24.23|16:29:45] Training epoch: 6
+[03.24.23|16:30:07] 	mean_loss: 1.891543984413147
+[03.24.23|16:30:07] Time consumption:
+[03.24.23|16:30:07] Done.
+[03.24.23|16:30:07] Training epoch: 7
+[03.24.23|16:30:28] 	mean_loss: 1.9065044522285461
+[03.24.23|16:30:28] Time consumption:
+[03.24.23|16:30:28] Done.
+[03.24.23|16:30:28] Training epoch: 8
+[03.24.23|16:30:49] 	mean_loss: 1.8890899419784546
+[03.24.23|16:30:49] Time consumption:
+[03.24.23|16:30:49] Done.
+[03.24.23|16:30:49] Training epoch: 9
+[03.24.23|16:31:10] 	mean_loss: 2.164349317550659
+[03.24.23|16:31:10] Time consumption:
+[03.24.23|16:31:10] Done.
+[03.24.23|16:31:11] The model has been saved as .\output\/epoch10_model.pt.
+[03.24.23|16:31:11] Eval epoch: 9
+[03.24.23|16:31:33] 	mean_loss: 1.2187257607777913
+[03.24.23|16:31:33] 	Top1: 40.00%
+[03.24.23|16:31:33] 	Top5: 100.00%
+[03.24.23|16:31:33] Done.
+[03.24.23|16:31:33] Training epoch: 10
+[03.24.23|16:31:54] 	mean_loss: 1.3950349688529968
+[03.24.23|16:31:54] Time consumption:
+[03.24.23|16:31:54] Done.
+[03.24.23|16:31:54] Training epoch: 11
+[03.24.23|16:32:15] 	mean_loss: 1.8687755167484283
+[03.24.23|16:32:15] Time consumption:
+[03.24.23|16:32:15] Done.
+[03.24.23|16:32:15] Training epoch: 12
+[03.24.23|16:32:37] 	mean_loss: 2.437996029853821
+[03.24.23|16:32:37] Time consumption:
+[03.24.23|16:32:37] Done.
+[03.24.23|16:32:37] Training epoch: 13
+[03.24.23|16:32:58] 	mean_loss: 1.5962628722190857
+[03.24.23|16:32:58] Time consumption:
+[03.24.23|16:32:58] Done.
+[03.24.23|16:32:59] Training epoch: 14
+[03.24.23|16:33:20] 	mean_loss: 2.821491062641144
+[03.24.23|16:33:20] Time consumption:
+[03.24.23|16:33:20] Done.
+[03.24.23|16:33:20] Eval epoch: 14
+[03.24.23|16:33:41] 	mean_loss: 45.46099007129669
+[03.24.23|16:33:41] 	Top1: 40.00%
+[03.24.23|16:33:41] 	Top5: 100.00%
+[03.24.23|16:33:41] Done.
+[03.24.23|16:33:41] Training epoch: 15
+[03.24.23|16:34:02] 	mean_loss: 1.5700158476829529
+[03.24.23|16:34:02] Time consumption:
+[03.24.23|16:34:02] Done.
+[03.24.23|16:34:02] Training epoch: 16
+[03.24.23|16:34:24] 	mean_loss: 2.289329409599304
+[03.24.23|16:34:24] Time consumption:
+[03.24.23|16:34:24] Done.
+[03.24.23|16:34:24] Training epoch: 17
+[03.24.23|16:34:45] 	mean_loss: 2.243115484714508
+[03.24.23|16:34:45] Time consumption:
+[03.24.23|16:34:45] Done.
+[03.24.23|16:34:45] Training epoch: 18
+[03.24.23|16:35:06] 	mean_loss: 1.5442352890968323
+[03.24.23|16:35:06] Time consumption:
+[03.24.23|16:35:06] Done.
+[03.24.23|16:35:06] Training epoch: 19
+[03.24.23|16:35:29] 	mean_loss: 2.077583968639374
+[03.24.23|16:35:29] Time consumption:
+[03.24.23|16:35:29] Done.
+[03.24.23|16:35:29] The model has been saved as .\output\/epoch20_model.pt.
+[03.24.23|16:35:29] Eval epoch: 19
+[03.24.23|16:35:50] 	mean_loss: 1.0274550908749613
+[03.24.23|16:35:50] 	Top1: 40.00%
+[03.24.23|16:35:50] 	Top5: 100.00%
+[03.24.23|16:35:50] Done.
+[03.24.23|16:35:50] Training epoch: 20
+[03.24.23|16:36:12] 	mean_loss: 2.6522252559661865
+[03.24.23|16:36:12] Time consumption:
+[03.24.23|16:36:12] Done.
+[03.24.23|16:36:12] Training epoch: 21
+[03.24.23|16:36:35] 	mean_loss: 1.8297314643859863
+[03.24.23|16:36:35] Time consumption:
+[03.24.23|16:36:35] Done.
+[03.24.23|16:36:35] Training epoch: 22
+[03.24.23|16:36:58] 	mean_loss: 2.0781683921813965
+[03.24.23|16:36:58] Time consumption:
+[03.24.23|16:36:58] Done.
+[03.24.23|16:36:58] Training epoch: 23
+[03.24.23|16:37:19] 	mean_loss: 1.6148459315299988
+[03.24.23|16:37:19] Time consumption:
+[03.24.23|16:37:19] Done.
+[03.24.23|16:37:19] Training epoch: 24
+[03.24.23|16:37:41] 	mean_loss: 1.6101288199424744
+[03.24.23|16:37:41] Time consumption:
+[03.24.23|16:37:41] Done.
+[03.24.23|16:37:41] Eval epoch: 24
+[03.24.23|16:38:04] 	mean_loss: 1.7360964218775432
+[03.24.23|16:38:04] 	Top1: 20.00%
+[03.24.23|16:38:04] 	Top5: 100.00%
+[03.24.23|16:38:04] Done.
+[03.24.23|16:38:04] Training epoch: 25
+[03.24.23|16:38:26] 	mean_loss: 1.6262975931167603
+[03.24.23|16:38:26] Time consumption:
+[03.24.23|16:38:26] Done.
+[03.24.23|16:38:26] Training epoch: 26
+[03.24.23|16:38:47] 	mean_loss: 2.5566208362579346
+[03.24.23|16:38:47] Time consumption:
+[03.24.23|16:38:47] Done.
+[03.24.23|16:38:47] Training epoch: 27
