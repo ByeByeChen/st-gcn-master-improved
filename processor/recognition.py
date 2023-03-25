@@ -19,7 +19,6 @@ from torchlight import import_class
 
 from .processor import Processor
 
-from processor import config
 
 
 def weights_init(m):

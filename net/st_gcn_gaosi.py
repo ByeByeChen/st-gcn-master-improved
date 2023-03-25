@@ -92,7 +92,7 @@ class Model(nn.Module):
         for gcn, importance in zip(self.st_gcn_networks, self.edge_importance):
             x, _ = gcn(x, (self.A + self.study_variable[0] * self.noise_matrix) * importance)
             #print('importance:', importance)#### 邻接矩阵+高斯噪声后再与权重相乘
-        print('########study_variable:',self.study_variable[0].item())
+        #print('########study_variable:',self.study_variable[0].item())
 
 
         # global pooling

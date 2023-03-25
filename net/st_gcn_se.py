@@ -1,11 +1,12 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import seNet as seN
+from net.seNet import SELayer
 from torch.autograd import Variable
 
 from net.utils.tgcn import ConvTemporalGraphical
 from net.utils.graph import Graph
+from processor import  config
 
 
 class Model(nn.Module):
@@ -80,8 +81,11 @@ class Model(nn.Module):
         x = x.view(N * M, C, T, V)
 
         # forwad
+        seNum = 0
         for gcn, importance in zip(self.st_gcn_networks, self.edge_importance):
             x, _ = gcn(x, self.A * importance)
+            seNum = seNum + 1
+            config.set_value("seNum",seNum)
 
         # global pooling
         x = F.avg_pool2d(x, x.size()[2:])
@@ -156,8 +160,9 @@ class st_gcn(nn.Module):
         padding = ((kernel_size[0] - 1) // 2, 0)
 
         #seNet
-        self.se = seN.SELayer(128*4,16)
-
+        self.se64 = SELayer(64,16)
+        self.se128 = SELayer(128, 16)
+        self.se256 = SELayer(256, 16)
 
         self.gcn = ConvTemporalGraphical(in_channels, out_channels,
                                          kernel_size[1])
@@ -198,7 +203,12 @@ class st_gcn(nn.Module):
 
         res = self.residual(x)
         x, A = self.gcn(x, A)
-        x = self.se(x)
+        if int(config.get_value("seNum") or 0) < 4:
+            x = self.se64(x)
+        elif int(config.get_value("seNum") or 0) >= 4 and int(config.get_value("seNum") or 0) < 7:
+            x = self.se128(x)
+        else:
+            x = self.se256(x)
         x = self.tcn(x) + res
 
         return self.relu(x), A

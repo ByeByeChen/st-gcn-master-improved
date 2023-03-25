@@ -1,14 +1,11 @@
-# command line: main.py recognition -c config/st_gcn/kinetics-skeleton/train.yaml --work_dir .\output\ --use_gpu False
+# command line: main.py recognition -c .\config\st_gcn\kinetics-skeleton\train.yaml --work_dir .\output\ --use_gpu False
 
 base_lr: 0.01
-batch_size: 2
-config: config/st_gcn/kinetics-skeleton/train.yaml
+batch_size: 4
+config: .\config\st_gcn\kinetics-skeleton\train.yaml
 debug: false
 device:
 - 0
-- 1
-- 2
-- 3
 eval_interval: 5
 feeder: feeder.feeder.Feeder
 ignore_weights: []
